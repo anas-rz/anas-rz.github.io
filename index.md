@@ -2,7 +2,7 @@
 
 ## PhD Candidate Computer Science and Informatics at Oakland University
 
-[WRITINGS](writings.md) [ABOUT](about.md) [CONTACT ME](mailto:mraza@oakland.edu)
+[WRITINGS](writings.md) \ [ABOUT](about.md) \ [CONTACT ME](mailto:mraza@oakland.edu)
 
 
 My interests are Computer Vision, Representation Learning and Robustness. 
