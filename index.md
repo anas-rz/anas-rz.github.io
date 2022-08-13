@@ -1,4 +1,6 @@
-# Hi
+# Muhammad Anas Raza
+
+## PhD Candidate Computer Science and Informatics at Oakland University
 
 [Writings](writings.md)
 
