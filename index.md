@@ -1,6 +1,6 @@
 # Muhammad Anas Raza
 
-## PhD Candidate Computer Science and Informatics at Oakland University
+## PhD Candidate CSI
 
 [WRITINGS](writings.md) \ [ABOUT](about.md) \ [CONTACT ME](mailto:mraza@oakland.edu)
 
