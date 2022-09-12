@@ -1,3 +1,5 @@
 theme: jekyll-theme-tactile
 title: Muhammad Anas Raza
 description: Bookmark this to keep an eye on my project updates!
+plugins:
+  - jemoji
