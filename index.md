@@ -2,8 +2,9 @@
 
 
 [WRITINGS](writings.md) \ [ABOUT](about.md) \ [CONTACT ME](mailto:mraza@oakland.edu)
-
+<p align="center">
 <img src="myphoto.jpeg" alt="Muhammad Anas Raza" width="200" >
+ </p>
 Hey,
 
 I am a PhD Computer Science student interested in Multimodal Representation Learning, Computer Vision and Model Robustness. 
