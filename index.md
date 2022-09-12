@@ -8,7 +8,7 @@ Hey,
 
 I am a PhD Computer Science student interested in Multimodal Representation Learning, Computer Vision and Model Robustness. 
 
-I love programming, reading, exploring stuff, working out, writing and learning philosophy.
+I love programming, reading, exploring stuff, working out and writing.
 
 Right now, I am learning how to do  :butterfly: butterfly swimming. Consider myself an average :swimming_man:	freestyle swimmer. 
 
