@@ -1,7 +1,8 @@
 # Muhammad Anas Raza
 
 
-[WRITINGS](writings.md) \ [ABOUT](about.md) \ [CONTACT ME](mailto:mraza@oakland.edu)
+[WRITINGS](writings.md) \ [IMPLEMENTATIONS](implementations.md) \ [ABOUT](about.md) \ [CONTACT ME](mailto:mraza@oakland.edu)
+
 <p align="center">
 <img src="myphoto.jpeg" alt="Muhammad Anas Raza" width="200" >
  </p>
