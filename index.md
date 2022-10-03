@@ -12,7 +12,7 @@ I am a PhD Computer Science student interested in Multimodal Representation Lear
 
 
 
-Fun Facts:zap: : I :hearts: reading :open_book:, exploring stuff :star_struck:, working out :weight_lifting_man: and writing :writing_hand:. I play badminton :badminton:, ping pong :ping_pong:, swim :swimming_man:.  I can cook :cook: too, 
+Fun Facts:zap: : I :hearts: reading :open_book:, exploring stuff :stars:, working out :weight_lifting_man: and writing :writing_hand:. I play badminton :badminton:, ping pong :ping_pong:, swim :swimming_man:.  I can cook :cook: too, 
 
 ### Social Accounts 
 
