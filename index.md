@@ -6,11 +6,12 @@
 <p align="center">
 <img src="myphoto.jpeg" alt="Muhammad Anas Raza" width="200" >
  </p>
+**<span style="color:blue">This person is under heavy development. </span> :slightly_smiling_face:**
+
 Hey,
 
 I am a PhD Computer Science student interested in Multimodal Representation Learning, Computer Vision and Model Robustness. 
 
-**<span style="color:blue">This person is under heavy development. </span> :slightly_smiling_face:**
 
 Fun Facts:zap: : I :hearts: reading :open_book:, exploring stuff :stars:, working out :weight_lifting_man: and writing :writing_hand:. I play badminton :badminton:, ping pong :ping_pong:, swim :swimming_man:.  I can cook :man_cook: too.
 
