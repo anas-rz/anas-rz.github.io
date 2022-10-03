@@ -10,8 +10,9 @@ Hey,
 
 I am a PhD Computer Science student interested in Multimodal Representation Learning, Computer Vision and Model Robustness. 
 
-I love programming, reading, exploring stuff, working out and writing.
 
+
+Fun Facts:zap: : I :hearts: reading :open_book:, exploring stuff :star_struck:, working out :weight_lifting_man: and writing. I play badminton :badminton:, ping pong :ping_pong:, swim :swimming_man:.  I can cook :cook: too, 
 
 ### Social Accounts 
 
