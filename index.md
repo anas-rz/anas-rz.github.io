@@ -1,6 +1,3 @@
-# Muhammad Anas Raza
-
-
 [WRITINGS](https://manasraza.medium.com) \ [IMPLEMENTATIONS](implementations.md) \ [CONTACT ME](mailto:mraza@oakland.edu)
 
 <p align="center">
