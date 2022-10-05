@@ -15,4 +15,4 @@ Fun Facts:zap: : I :hearts: reading :open_book:, exploring stuff :stars:, workin
 
 ### Social Accounts 
 
-[LinkedIn](https://linkedin.com/in/memanasraza) \ [Twitter](https://twitter.com/anas_raza_m) 
+[LinkedIn](https://linkedin.com/in/memanasraza) \ [Twitter](https://twitter.com/anas_raza_m) \ [GitHub](https://github.com/anas-r-dev) 
