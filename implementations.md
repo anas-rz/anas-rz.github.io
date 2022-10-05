@@ -1,6 +1,6 @@
 # Implementations / Contributions
 
-SpecMix: A Mixed Sample Data Augmentation method for Training withTime-Frequency Domain Features[\[PyTorch\]](https://github.com/anas-r-dev/specmix-pytorch)[\[TensorFlow\]](https://github.com/anas-r-dev/video-mix-tensorflow)
+SpecMix: A Mixed Sample Data Augmentation method for Training withTime-Frequency Domain Features[\[PyTorch\]](https://github.com/anas-r-dev/specmix-pytorch)[\[TensorFlow\]](https://github.com/anas-r-dev/specmix-tensorflow)
 
 [Video Mix Data Augmentation in TensorFlow](https://github.com/anas-r-dev/video-mix-tensorflow)
 
