@@ -7,7 +7,9 @@ Hey,
 
 I am a PhD Computer Science student interested in Multimodal Representation Learning, Computer Vision and Model Robustness. 
 
+## News
 
+\[**October 15, 2022**\]: Honoured to be speaking at a UET Taxila on "An Introduction to Machine Learning for Engineers." Time: 11 AM EDT / 8 PM PKT
 
 ### Social Accounts 
 
