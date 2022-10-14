@@ -9,7 +9,7 @@ I am a PhD Computer Science student interested in Multimodal Representation Lear
 
 ## News
 
-\[**October 15, 2022**\]: Honoured to be speaking at a UET Taxila on "An Introduction to Machine Learning for Engineers." Time: 11 AM EDT / 8 PM PKT
+\[**October 15, 2022**\]: Honoured to be speaking at UET Taxila on "An Introduction to Machine Learning for Engineers." Time: 11 AM EDT / 8 PM PKT
 
 ### Social Accounts 
 
