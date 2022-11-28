@@ -7,7 +7,7 @@ Hey,
 
 You can call me Anas.
 
-I am a PhD student. My interests are Computer Vision and and robust ML.
+I am a PhD student. My interests are Computer Vision and robust ML.
 
 QuickBit: I love learning new stuff. 
 
