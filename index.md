@@ -12,7 +12,7 @@ I am a PhD student. My interests are Computer Vision and and robust ML.
 QuickBit: I love learning new stuff. 
 
 ## News
-\[**November 27, 2022**\]: Evaluation of Modern MLP Architectures on 3D Biomedical Data." \[Coming Soon\]
+\[**November 27, 2022**\]: Evaluation of Modern MLP Architectures on 3D Biomedical Data. \[Coming Soon\]
 
 \[**October 15, 2022**\]: Honoured to be speaking at UET Taxila on "An Introduction to Machine Learning for Engineers." Time: 11 AM EDT / 8 PM PKT 
 [demo](talk/uet-2022/demo-code.html), [slides](talk/uet-2022/slides.html)
