@@ -5,7 +5,11 @@
 
 Hey,
 
-I am a PhD Computer Science student interested in Multimodal Representation Learning, Computer Vision and Model Robustness. 
+You can call me Anas.
+
+I am a PhD student. My interests are Computer Vision and and robust ML.
+
+QuickBit: I love learning new stuff. 
 
 ## News
 \[**November 27, 2022**\]: Evaluation of Modern MLP Architectures on 3D Biomedical Data." \[Coming Soon\]
