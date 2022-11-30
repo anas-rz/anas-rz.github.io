@@ -1,5 +1,7 @@
 # Implementations / Contributions
 
+[An attempt to implement FocalNet in TensorFlow \(WIP\)](https://github.com/anas-r-dev/focalnet-tensorflow)
+
 SpecMix: A Mixed Sample Data Augmentation method for Training withTime-Frequency Domain Features[\[PyTorch\]](https://github.com/anas-r-dev/specmix-pytorch)[\[TensorFlow\]](https://github.com/anas-r-dev/specmix-tensorflow)
 
 [A simple way to concatenate `keras.utils.Sequence` instances](https://github.com/anas-r-dev/concatenate-keras-sequence)
