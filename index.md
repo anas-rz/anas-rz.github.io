@@ -1,4 +1,4 @@
-[WRITINGS](https://manasraza.medium.com) \ [IMPLEMENTATIONS](implementations.md) \ [CONTACT ME](mailto:mraza@oakland.edu)
+[WRITINGS](https://anas-r-dev.medium.com) \ [IMPLEMENTATIONS](implementations.md) \ [CONTACT ME](mailto:mraza@oakland.edu)
 
 
 
