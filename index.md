@@ -7,7 +7,7 @@
 Hey,
 
 <p align="center">
-  <img src="./headshot.png" height="200"/>
+  <img src="./headshot.png" height="300"/>
 </p>
 
 I am a PhD student. My interests are Computer Vision and robust ML.
