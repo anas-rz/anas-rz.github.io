@@ -6,7 +6,7 @@
 
 Hey,
 
-![Muhammad Anas Raza Headshot](Headshot.png "This is me")
+![Muhammad Anas Raza Headshot](headshot.png "This is me")
 
 I am a PhD student. My interests are Computer Vision and robust ML.
 
