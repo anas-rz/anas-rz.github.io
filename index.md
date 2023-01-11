@@ -6,7 +6,9 @@
 
 Hey,
 
-![Muhammad Anas Raza Headshot](headshot.png "This is me")
+<p align="center">
+  <img src="./headshot.png" />
+</p>
 
 I am a PhD student. My interests are Computer Vision and robust ML.
 
