@@ -3,9 +3,10 @@
 
 
 
+
 Hey,
 
-You can call me Anas.
+![Muhammad Anas Raza Headshot](Headshot.png "This is me")
 
 I am a PhD student. My interests are Computer Vision and robust ML.
 
