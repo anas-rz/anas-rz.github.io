@@ -4,11 +4,12 @@
 
 
 
-Hey,
 
 <p align="center">
   <img src="./headshot.png" height="300"/>
 </p>
+
+Hey,
 
 I am a PhD student. My interests are Computer Vision and robust ML.
 
@@ -23,6 +24,6 @@ QuickBit: I love [learning](learning.md) new stuff.
 [demo](talk/uet-2022/demo-code.html), [slides](talk/uet-2022/slides.html)
 
 
-[GitHub](https://github.com/anas-r-dev) | [LinkedIn](https://linkedin.com/in/memanasraza) 
+[GitHub](https://github.com/anas-r-dev) - [LinkedIn](https://linkedin.com/in/memanasraza) 
 
 
