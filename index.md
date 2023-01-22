@@ -18,7 +18,7 @@ Thank you for visiting!
 
 Visit my learning notes [here](learning.md). 
 
-## News
+## Updates
 
 \[**January 15, 2023**\]: Transformers in Video Understanding [Article](https://anas-r-dev.medium.com/transformers-in-video-understanding-97e2bc3afa6)
 
