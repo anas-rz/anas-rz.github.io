@@ -13,6 +13,7 @@ Welcome to my website!
 
 I am a PhD student, research assistant, and a software developer with a passion for open-source technology. My research interests are the intersection of Computer Vision, Audiovisual representation learning, and robust solutions in Machine Learning.
 In addition to my academic pursuits, I am also an avid reader, learner and writer, sharing my experiences on Personal development. I am also a sports enthusiast and enjoy playing badminton, ping pong, sometime swimming, and going to the gym. My website serves as a platform to share my knowledge, research, and personal interests with others. I hope you will find it informative and valuable. 
+
 Thank you for visiting!
 
 Visit my learning notes [here](learning.md). 
