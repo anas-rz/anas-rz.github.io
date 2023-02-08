@@ -1,4 +1,74 @@
-theme: jekyll-theme-tactile
+### your site title here
+
 title: Muhammad Anas Raza
+description: PhD Student | ML | Learner
+
+# baseurl: /gradfolio #name of GitHub repository
+url: "" #custom url to be used instead of GitHub repository
+email: #
+
+# Pagination
+paginate: 4
+permalink: /blog/:year/:title/
+paginate_path: /blog/page:num/
+
+# Social media links in footer
+twitter: "AnasRzaa"
+# linkedin: "#"
+stackoverflow: "13262692/muhammad-anas-raza"
+github: "anas-rz"
+# researchgate: "#"
+# orcid: "#"
+# quora: "#"
+# instagram: "#"
+# facebook: "#"
+
+
+# Markdown
+highlighter: rouge
+markdown: kramdown
+
+# Tracker
+analytics:
+
+# optimization -> compress.html
+compress_html:
+  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  comments: ["<!-- ", " -->"]
+  endings: [all]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
+
+#collection
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+    order:
+      - shortProject.md
+      - longerProjectTitle.md
+      # - redirect.md
+      - project4.md
+      - project5.md
+      - project6.md
+
+sass:
+  sass_dir: /assets/css/_sass
+  style: compressed
+
+include:
+  - _pages
+
+exclude:
+  - README.md
+  - LICENSE.md
+  - archive.html
+
 plugins:
-  - jemoji
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-email-protect
+  - jekyll-target-blank
