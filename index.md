@@ -16,4 +16,4 @@ In addition to my academic pursuits, I am also an avid reader, learner and write
 ### Also, check out: 
 
 <!-- - [Implementations](https://github.com/jitinnair1/tail) - a list of projects I work{ed} on -->
-- [My Learning Notes]('./learning-notes') - I love Learning.. -->
+- [My Learning Notes](learning-notes) - I love Learning..
