@@ -8,6 +8,7 @@ published: true
 ---
 Currently working in Computer Vision, Audiovisual representation learning, and robust solutions in Machine Learning, I am generally passionate creating useful solutions using machine learning algorithms and solutions. 
 
+I program mostly in TensorFlow. Can work in PyTorch and Jax as well.
 
 Other than work, I love to read, enjoy playing badminton {You'll enjoy playing singles with me:)} & ping pong. 
 
