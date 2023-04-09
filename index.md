@@ -7,9 +7,9 @@ profile:
 published: true
 ---
 
-My research interests are the intersection of Computer Vision, Audiovisual representation learning, and robust solutions in Machine Learning. 
+My research interests are the intersection of Computer Vision, Audiovisual representation learning, and robust solutions in Machine Learning. I am passionate about applying/devising solutions 
 
-In addition to my academic pursuits, I am also an avid reader, learner and writer, love sharing my experiences in personal development. Also a sports enthusiast, enjoy playing badminton, ping pong, gym and occassionally swimming. 
+In addition to my academic pursuits, I am also an avid reader, a sports enthusiast enjoy playing badminton, ping pong, gym and occassionally swimming. 
 
 ### Also, check out: 
 
