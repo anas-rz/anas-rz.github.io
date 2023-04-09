@@ -20,4 +20,4 @@ Also, check out:
 
 ## Updates
   - April 2023: Paper on joint audiovisual representation learning accepted in CVPR 2023 Workshop on Media Forensics
-  - October 15, 2022 Honoured to be speak at UET Taxila on "An Introduction to Machine Learning for Engineers." , \{[Slides](https://docs.google.com/presentation/d/1HIWUd9OQaHk1D1ESe77uEcZ6ir7DKLdQIj3rKms_yPs/edit?usp=sharing)\}
+  - October 15, 2022 Honoured to speak at UET Taxila on "An Introduction to Machine Learning for Engineers." , \{[Slides](https://docs.google.com/presentation/d/1HIWUd9OQaHk1D1ESe77uEcZ6ir7DKLdQIj3rKms_yPs/edit?usp=sharing)\}
