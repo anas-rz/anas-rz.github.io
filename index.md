@@ -9,7 +9,7 @@ published: true
 Currently working in Computer Vision, Audiovisual representation learning, and robust solutions in Machine Learning, I am generally passionate creating useful solutions using machine learning algorithms and solutions. 
 
 
-Other than work, I love to read, enjoy playing badminton {You'll enjoy playing singles with me:)} & ping pong {I am beginner in intermediate.}. 
+Other than work, I love to read, enjoy playing badminton {You'll enjoy playing singles with me:)} & ping pong. 
 
 Also, check out: 
 
