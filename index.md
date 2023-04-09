@@ -6,7 +6,7 @@ profile:
   image: profile.png
 published: true
 ---
-Currently working in Computer Vision, Audiovisual representation learning, and Robustness, I am passionate creating useful solutions using machine learning. 
+Currently working in Computer Vision, Audiovisual representation learning, and Robustness, I am passionate about creating useful solutions using machine learning. 
 
 I program mostly in TensorFlow. Can work in PyTorch and Jax as well.
 
