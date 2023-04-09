@@ -13,6 +13,9 @@ In addition to my academic pursuits, I am also an avid reader, learner and write
 
 ### Also, check out: 
 
-- [Implementations](https://github.com/anas-rz/) - a list of projects I work{ed} on
+## [Projects](https://github.com/anas-rz/)
+- a list of projects I work{ed} on
+- - Evaluating Modern Vision Architectures on 3D Biomedical Data
+
 - [Updates](updates) 
 - Paper on joint audiovisual representation learning accepted in CVPR 2023 Workshop on Media Forensics
