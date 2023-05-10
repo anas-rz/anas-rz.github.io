@@ -10,7 +10,7 @@ Currently working in Computer Vision, Audiovisual representation learning, and R
 
 I program mostly in TensorFlow. Can work in PyTorch and Jax as well.
 
-Other than work, I love to read, enjoy playing badminton {You'll enjoy playing singles with me:)} & ping pong. 
+Other than work, I love to [read](./readings), enjoy playing badminton {You'll enjoy playing singles with me:)} & ping pong. 
 
 Also, check out: 
 
