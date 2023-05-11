@@ -16,6 +16,9 @@ Also, check out:
 
 ## Projects
 - a list of projects I work{ed} on
+<!--   - Deep Forgery Detector: An deepfake detection framework developed at SMILES Lab under Prof. Khalid Malik. An extensible with support across models written in TensorFlow, PyTorch.
+  - Forensic Examiner: An audiospoofing detection benchmarking framework developed at SMILES Lab under Prof. Khalid Malik. An extensible with support across models written in TensorFlow, PyTorch. -->
+  - CSI 5900 Project: StorySeed: Plant the seed of your story with a picture. [HuggingFace Spaces](https://huggingface.co/spaces/anasrz/StorySeed)
   -  Project CSI 5550: Evaluating Modern Vision Architectures on 3D Biomedical Data \{[Colab Notebook](https://colab.research.google.com/drive/1nz-NtGxC3NeSJh4ZWQ8jabzBlawnvIWe?usp=sharing)\}, \{[slides](https://docs.google.com/presentation/d/1o1SD0WHBJEqvjOIJWys-Y6z80uuiejmC/edit?usp=sharing&ouid=118316226676823953327&rtpof=true&sd=true)\}
 
 ## Updates
