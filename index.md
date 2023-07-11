@@ -24,4 +24,4 @@ Also, check out:
 ## Updates
   - *May 2023:* "HolisticDFD: Spatiotemporal Transformer Embeddings Infusion for Deepfake Detection" accepted in **Information Sciences (Impact Factor 8.1)** \{[See here](https://www.sciencedirect.com/science/article/abs/pii/S0020025523009374)\}
   - *April 2023:* "Multimodaltrace: Deepfake Detection using Audiovisual Representation Learning" accepted in **Workshop on Media Forensics @ CVPR 2023** \{[See Here](https://openaccess.thecvf.com/content/CVPR2023W/WMF/html/Raza_Multimodaltrace_Deepfake_Detection_Using_Audiovisual_Representation_Learning_CVPRW_2023_paper.html)\}
-  - *October 15, 2022:* Honoured to speak at UET Taxila on "An Introduction to Machine Learning for Engineers." , \{[Slides](https://docs.google.com/presentation/d/1HIWUd9OQaHk1D1ESe77uEcZ6ir7DKLdQIj3rKms_yPs/edit?usp=sharing)\}
+  - *October 15, 2022:* Honoured to speak at UET Taxila on "An Introduction to Machine Learning for Engineers.", \{[Slides](https://docs.google.com/presentation/d/1HIWUd9OQaHk1D1ESe77uEcZ6ir7DKLdQIj3rKms_yPs/edit?usp=sharing)\}
