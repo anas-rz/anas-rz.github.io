@@ -22,7 +22,7 @@ Other than work, I love to [read](./readings), enjoy playing badminton {You'll e
   - **Forensic Examiner**: Designed and Developed Forensic Examiner - an extensible framework for benchmarking and evaluating audio spoofing detection algorithms. \{Work done at SMILES Lab @ Oakland University\}
   - CSI 5900 Project: StorySeed: Plant the seed of your story with a picture. \{[HuggingFace Spaces](https://huggingface.co/spaces/anasrz/StorySeed)\}
   - CSI 5550 Project: Evaluating Modern Vision Architectures on 3D Biomedical Data \{[Colab Notebook](https://colab.research.google.com/drive/1nz-NtGxC3NeSJh4ZWQ8jabzBlawnvIWe?usp=sharing)\}, \{[slides](https://docs.google.com/presentation/d/1o1SD0WHBJEqvjOIJWys-Y6z80uuiejmC/edit?usp=sharing&ouid=118316226676823953327&rtpof=true&sd=true)\}
-  -   - **Oil Debris Monitoring System using deep learning**: Lead a team of five members to fabricate an oil debris monitoring sensor. The sensor employed time-series anomaly detection techniques to report anomalous patterns in lubricants. The project has its significance in preventive maintenance for moving mechanical systems. \{Work done at UET Taxila\}
+  -  **Oil Debris Monitoring System using deep learning**: Lead a team of five members to fabricate an oil debris monitoring sensor. The sensor employed time-series anomaly detection techniques to report anomalous patterns in lubricants. The project has its significance in preventive maintenance for moving mechanical systems. \{Work done at UET Taxila\}
 
 ## Updates
   - *October 15, 2022:* Honoured to speak at UET Taxila on "An Introduction to Machine Learning for Engineers.", \{[Slides](https://docs.google.com/presentation/d/1HIWUd9OQaHk1D1ESe77uEcZ6ir7DKLdQIj3rKms_yPs/edit?usp=sharing)\}
