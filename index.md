@@ -16,10 +16,12 @@ Also, check out:
 
 ## Projects
 - a list of projects I work{ed} on
-  - CSI 5900 Project: StorySeed: Plant the seed of your story with a picture. [HuggingFace Spaces](https://huggingface.co/spaces/anasrz/StorySeed)
+  - **Deep Forgery Detector**: Designed and Developed Deep Forgery Detector - an extensible framework for deploying visual deepfake detection algorithms. \{Work done at SMILES Lab @ Oakland University\}
+  - **Forensic Examiner**: Designed and Developed Forensic Examiner - an extensible framework for benchmarking and evaluating visual deepfake detection. \{Work done at SMILES Lab @ Oakland University\}
+  - CSI 5900 Project: StorySeed: Plant the seed of your story with a picture. \{[HuggingFace Spaces](https://huggingface.co/spaces/anasrz/StorySeed)\}
   - CSI 5550 Project: Evaluating Modern Vision Architectures on 3D Biomedical Data \{[Colab Notebook](https://colab.research.google.com/drive/1nz-NtGxC3NeSJh4ZWQ8jabzBlawnvIWe?usp=sharing)\}, \{[slides](https://docs.google.com/presentation/d/1o1SD0WHBJEqvjOIJWys-Y6z80uuiejmC/edit?usp=sharing&ouid=118316226676823953327&rtpof=true&sd=true)\}
 
 ## Updates
-  - *May 2023:* "HolisticDFD: Spatiotemporal Transformer Embeddings Infusion for Deepfake Detection" accepted in **Information Sciences (Impact Factor 8.233)**
-  - *April 2023:* "Multimodaltrace: Deepfake Detection using Audiovisual Representation Learning" accepted in **Workshop on Media Forensics @ CVPR 2023**
+  - *May 2023:* "HolisticDFD: Spatiotemporal Transformer Embeddings Infusion for Deepfake Detection" accepted in **Information Sciences (Impact Factor 8.1)** \{[See here](https://www.sciencedirect.com/science/article/abs/pii/S0020025523009374)\}
+  - *April 2023:* "Multimodaltrace: Deepfake Detection using Audiovisual Representation Learning" accepted in **Workshop on Media Forensics @ CVPR 2023** \{[See Here](https://openaccess.thecvf.com/content/CVPR2023W/WMF/html/Raza_Multimodaltrace_Deepfake_Detection_Using_Audiovisual_Representation_Learning_CVPRW_2023_paper.html)\}
   - *October 15, 2022:* Honoured to speak at UET Taxila on "An Introduction to Machine Learning for Engineers." , \{[Slides](https://docs.google.com/presentation/d/1HIWUd9OQaHk1D1ESe77uEcZ6ir7DKLdQIj3rKms_yPs/edit?usp=sharing)\}
