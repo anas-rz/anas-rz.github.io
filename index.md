@@ -18,7 +18,7 @@ Other than work, I love to [read](./readings), enjoy playing badminton {You'll e
 
 ## Projects
 - a list of projects I work{ed} on
-  - **Keras Core**: Open-source contributions to Keras Core include implementing cross-backend patch extraction for vision transformer-like models. Made framework backend agnostic and ported examples to keras-core. \{[Merged Pull Requests](https://github.com/keras-team/keras-core/pulls?q=is%3Apr+is%3Amerged+author%3Aanas-rz)\}
+  - **Keras Core**: Open-source contributions to Keras Core include implementing cross-backend patch extraction for vision transformer-like models. Ported examples to keras-core. \{[Merged Pull Requests](https://github.com/keras-team/keras-core/pulls?q=is%3Apr+is%3Amerged+author%3Aanas-rz)\}
   - **Deep Forgery Detector**: Designed and Developed Deep Forgery Detector - an extensible framework for deploying visual deepfake detection algorithms. \{Work done at SMILES Lab @ Oakland University\}
   - **Forensic Examiner**: Designed and Developed Forensic Examiner - an extensible framework for benchmarking and evaluating audio spoofing detection algorithms. \{Work done at SMILES Lab @ Oakland University\}
   - **FocalNet TensorFlow**: Implemented and ported weights for Focal Modulation Network in TensorFlow/Keras. \{[link](https://github.com/anas-rz/focalnet-tensorflow)\}
