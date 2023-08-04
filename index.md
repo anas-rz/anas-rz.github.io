@@ -18,8 +18,10 @@ Other than work, I love to [read](./readings), enjoy playing badminton {You'll e
 
 ## Projects
 - a list of projects I work{ed} on
+  - **Keras Core**: Open-source contributions to Keras Core include implementing cross-backend patch extraction for vision transformer-like models. Made framework backend agnostic and ported examples to keras-core. [Merged Pull Requests](https://github.com/keras-team/keras-core/pulls?q=is%3Apr+is%3Amerged+author%3Aanas-rz)
   - **Deep Forgery Detector**: Designed and Developed Deep Forgery Detector - an extensible framework for deploying visual deepfake detection algorithms. \{Work done at SMILES Lab @ Oakland University\}
   - **Forensic Examiner**: Designed and Developed Forensic Examiner - an extensible framework for benchmarking and evaluating audio spoofing detection algorithms. \{Work done at SMILES Lab @ Oakland University\}
+  - **FocalNet TensorFlow**: Implemented and ported weights for Focal Modulation Network in TensorFlow/Keras. [link](https://github.com/anas-rz/focalnet-tensorflow)
   - CSI 5900 Project: StorySeed: Plant the seed of your story with a picture. \{[HuggingFace Spaces](https://huggingface.co/spaces/anasrz/StorySeed)\}
   - CSI 5550 Project: Evaluating Modern Vision Architectures on 3D Biomedical Data \{[Colab Notebook](https://colab.research.google.com/drive/1nz-NtGxC3NeSJh4ZWQ8jabzBlawnvIWe?usp=sharing)\}, \{[slides](https://docs.google.com/presentation/d/1o1SD0WHBJEqvjOIJWys-Y6z80uuiejmC/edit?usp=sharing&ouid=118316226676823953327&rtpof=true&sd=true)\}
   -  **Oil Debris Monitoring System using deep learning**: Lead a team of five members to fabricate an oil debris monitoring sensor. The sensor employed time-series anomaly detection techniques to report anomalous patterns in lubricants. The project has its significance in preventive maintenance for moving mechanical systems. \{Work done at UET Taxila\}
