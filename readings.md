@@ -13,7 +13,7 @@ Excerpt From: Shane Parrish. “The Great Mental Models: General Thinking Concep
 - **Ikigai: The Japanese Secret to a Long and Happy Life** (Read *May 2023*)
   - Short book. An amalgam of different self-help ideas like Flow. Very little information about the actual title ikigai more about how and examples. 
 
-## All-Time Favourites (books I wanna go back again and again):
+## All-Time Favourites (I want to read again and again):
 
 - **The Compound Effect** by _Darren Hardy_
 
