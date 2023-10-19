@@ -17,7 +17,7 @@ Excerpt From: Shane Parrish. “The Great Mental Models: General Thinking Concep
 
 - **The Compound Effect** by _Darren Hardy_
 
-I kinda love reading humor and \{try to\} write too. You can access a few pieces [here](https://www.facebook.com/anaswriting/).
+I love reading humour and \{try to\} write too. You can access a few pieces [here](https://www.facebook.com/anaswriting/).
 
 - **Aab e Gum** by _Mushtaq Ahmad Yusufi_.
 - **Khumaar e Gandum** by _Ibn e Insha_.
