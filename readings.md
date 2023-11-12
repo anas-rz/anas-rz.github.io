@@ -6,6 +6,8 @@ published: true
 
 ## Book Reviews
 
+I've loved reading since primary school, starting with Hamdard Naunehal and Phool, and progressing to Naseem Hijazi novels, history, humor, personal development, and tech. I was once addicted to reading newspapers cover to cover daily. My reading habit enriches my life and aids my research in all fields.
+
 * **Win Every Argument** by Mehdi Hasan: Mehdi Hasan's passionate and engaging style, along with his wonderful rhetorical tools, make this book a must-read for anyone who wants to have more effective debates and conversations. 
 
 * **Ego is the Enemy** by Ryan Holiday: This book teaches you how to overcome your ego and live a more fulfilling life, arguing that it is the biggest obstacle at all stages of life whether you are aiming, succeeding, or failing. Holiday provides practical advice on how to identify and tame our egos so that we can focus on what's truly important, such as our relationships, our values, and our contributions to the world.
