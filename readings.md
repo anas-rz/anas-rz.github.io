@@ -12,6 +12,8 @@ published: true
 
 * **Ikigai: The Japanese Secret to a Long and Happy Life** This book explores the Japanese concept of ikigai, often translated as "reason for being" or "life purpose." The book focuses rather on the materialistic purpose one can perceive.
 
+* **The Power of Habit: Why We Do What We Do in Life and Business** by Charles Duhigg is a longer book that I read a few years ago, but it has had a lasting impact on my understanding of how habits work and how to change them. Whether you are looking to evade bad habits or develop good ones, this book is a must.
+
 ## All-Time Favorites
 
 * **The Compound Effect** by Darren Hardy: This book teaches you the power of small, consistent actions over time, showing how even the smallest changes can have a profound impact on your life if you stick with them long enough. 
