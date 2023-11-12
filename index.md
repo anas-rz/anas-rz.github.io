@@ -6,7 +6,12 @@ profile:
   image: profile.png
 published: true
 ---
-I am passionate about creating useful solutions using machine learning. I am skilled in TensorFlow, PyTorch, and Jax. Outside of work, I enjoy reading, playing badminton and ping pong, and learning new things.
+
+I fell in love with programming in 6th grade when I learned that my friend could develop the games I played on my PC. I attempted to create a Visual Basic application in high school, but it was unsuccessful. My passion for programming persisted, even after graduating with a mechanical engineering degree. I adore reading, writing, thinking about, improving, and understanding programs, especially in Python. 
+
+I am proficient in TensorFlow \(flexible to work with PyTorch, and Jax\), and I am passionate about creating useful solutions using machine learning.
+
+Outside of work, I enjoy reading, playing badminton and ping pong, and learning new things.
 
 **Publications**
 
