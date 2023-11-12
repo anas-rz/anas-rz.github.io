@@ -4,23 +4,22 @@ permalink: /readings
 published: true
 ---
 
-## Book Reviews \{OPINIONS\}
-- **Win Every Argument** by Mehdi Hasan:
-  - I love Mehdi Hasan's style on Al Jazeera and beyond. This book gives wonderful rhetorical tools. I love watching all kinds of debates and this book gives a very different perspective to observe and have these discussions.
-- **The Great Mental Models**:
-  - “In life and business, the person with the fewest blind spots wins.”
-Excerpt From: Shane Parrish. “The Great Mental Models: General Thinking Concepts.” Apple Books.   
-- **Ego is the enemy**
-  - Best book to read. The kind of book you want to go back to again and again. Our ego stops us from progressing at all stages. Whether we are aiming to do something good, we have achieved something or we are failing. It is the biggest enemy living inside us.
-- **Ikigai: The Japanese Secret to a Long and Happy Life** (Read *May 2023*)
-  - Short book. An amalgam of different self-help ideas like Flow. Very little information about the actual title ikigai more about how and examples. 
+## Book Reviews
 
-## All-Time Favourites (I want to read again and again):
+* **Win Every Argument** by Mehdi Hasan: Mehdi Hasan's passionate and engaging style, along with his wonderful rhetorical tools, make this book a must-read for anyone who wants to have more effective debates and conversations. 
 
-- **The Compound Effect** by _Darren Hardy_
+* **Ego is the Enemy** by Ryan Holiday: This book teaches you how to overcome your ego and live a more fulfilling life, arguing that it is the biggest obstacle at all stages of life whether you are aiming, succeeding, or failing. Holiday provides practical advice on how to identify and tame our egos so that we can focus on what's truly important, such as our relationships, our values, and our contributions to the world.
 
-I love reading humour and \{try to\} write too. You can access a few pieces [here](https://www.facebook.com/anaswriting/).
+* **Ikigai: The Japanese Secret to a Long and Happy Life** This book explores the Japanese concept of ikigai, often translated as "reason for being" or "life purpose." The book focuses rather on the materialistic purpose one can perceive.
 
-- **Aab e Gum** by _Mushtaq Ahmad Yusufi_.
-- **Khumaar e Gandum** by _Ibn e Insha_.
-- **Three Men in  a Boat** by _Jerome K. Jerome_.
+## All-Time Favorites
+
+* **The Compound Effect** by Darren Hardy: This book teaches you the power of small, consistent actions over time, showing how even the smallest changes can have a profound impact on your life if you stick with them long enough. 
+
+* **Aab e Gum** by Mushtaq Ahmad Yusufi: In this timeless classic, Yusufi shares humourous stories of his friends, using a unique blend of satire and nostalgia. Aab e Gum is a must-read for anyone who loves to laugh.
+
+* **Khumaar e Gandum** by Ibn e Insha: A collection of humourous essays, the first one being praised by all humourists across the country. Khumar e Gandum is another must-read for fans of Urdu humor, and it features some of the most iconic and quotable lines in Urdu literature.
+
+* **Three Men in a Boat** by Jerome K. Jerome: This hilarious and heartwarming novel about three friends on a boating trip along the River Thames is full of wit and charm. Three Men in a Boat is a classic British novel that has been enjoyed by readers of all ages for generations.
+
+[Here is a link to my Facebook page](https://www.facebook.com/anaswriting/), where I share some of my writing.
