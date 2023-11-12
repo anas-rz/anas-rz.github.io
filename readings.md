@@ -6,7 +6,7 @@ published: true
 
 ## Book Reviews \{OPINIONS\}
 - **Win Every Argument** by Mehdi Hasan:
-  - I love Mehdi Hasan's for different programs on Al Jazeera and beyond. The book gives wonderful rhetorical tools. I love watching all kind of debates and this book gives a very different perspective to watch and have these discussions.
+  - I love Mehdi Hasan's style on Al Jazeera and beyond. The book gives wonderful rhetorical tools. I love watching all kinds of debates and this book gives a very different perspective to observe and have these discussions.
 - **The Great Mental Models**:
   - “In life and business, the person with the fewest blind spots wins.”
 Excerpt From: Shane Parrish. “The Great Mental Models: General Thinking Concepts.” Apple Books.   
