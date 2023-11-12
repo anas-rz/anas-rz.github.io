@@ -11,7 +11,7 @@ I fell in love with programming in 6th grade when I learned that my friend could
 
 I am proficient in TensorFlow \(flexible to work with PyTorch, and Jax\), and I am passionate about creating useful solutions using machine learning.
 
-Outside of work, I enjoy reading, playing badminton and ping pong, and learning new things.
+Outside of work, I enjoy reading 📚, playing badminton 🏸 and ping pong 🏓, and learning new things 🧠.
 
 **Publications**
 
