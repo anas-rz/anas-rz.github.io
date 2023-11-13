@@ -19,8 +19,8 @@ Outside of work, I enjoy reading 📚, playing badminton 🏸 and ping pong 🏓
 * **April 2023:** [Multimodaltrace: Deepfake Detection using Audiovisual Representation Learning](https://openaccess.thecvf.com/content/CVPR2023W/WMF/html/Raza_Multimodaltrace_Deepfake_Detection_Using_Audiovisual_Representation_Learning_CVPRW_2023_paper.html) (CVPR 2023 Workshop on Media Forensics)
 
 **Projects**
-
 * **Keras Core:** Open-source contributions include implementing cross-backend patch extraction for vision transformer-like models and porting examples to Keras Core ([merged pull requests](https://github.com/keras-team/keras-core/pulls?q=is%3Apr+is%3Amerged+author%3Aanas-rz)).
+* **FocalNet Keras 3:** Multi-backend implementation of FocalNet for Keras 3. Works with TensorFlow, PyTorch, and Jax. ([link](https://github.com/anas-rz/focalnet-keras-3)).
 * **Deep Forgery Detector:** Designed and developed Deep Forgery Detector, an extensible framework for deploying visual deepfake detection algorithms (work done at SMILES Lab @ Oakland University).
 * **Forensic Examiner:** Designed and developed Forensic Examiner, an extensible framework for benchmarking and evaluating audio spoofing detection algorithms (work done at SMILES Lab @ Oakland University).
 * **FocalNet TensorFlow:** Implemented and ported weights for Focal Modulation Network in TensorFlow/Keras ([link](https://github.com/anas-rz/focalnet-tensorflow)).
