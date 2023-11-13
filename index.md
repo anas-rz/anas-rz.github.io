@@ -20,9 +20,9 @@ Outside of work, I enjoy reading 📚, playing badminton 🏸 and ping pong 🏓
 
 **Projects**
 * **Keras Core:** Open-source contributions include implementing cross-backend patch extraction for vision transformer-like models and porting examples to Keras Core ([merged pull requests](https://github.com/keras-team/keras-core/pulls?q=is%3Apr+is%3Amerged+author%3Aanas-rz)).
-* **FocalNet Keras 3:** Multi-backend implementation of FocalNet for Keras 3. Works with TensorFlow, PyTorch, and Jax. ([link](https://github.com/anas-rz/focalnet-keras-3)).
 * **Deep Forgery Detector:** Designed and developed Deep Forgery Detector, an extensible framework for deploying visual deepfake detection algorithms (work done at SMILES Lab @ Oakland University).
 * **Forensic Examiner:** Designed and developed Forensic Examiner, an extensible framework for benchmarking and evaluating audio spoofing detection algorithms (work done at SMILES Lab @ Oakland University).
+* **FocalNet Keras 3:** Multi-backend implementation of FocalNet for Keras 3. Works with TensorFlow, PyTorch, and Jax. ([link](https://github.com/anas-rz/focalnet-keras-3)).
 * **FocalNet TensorFlow:** Implemented and ported weights for Focal Modulation Network in TensorFlow/Keras ([link](https://github.com/anas-rz/focalnet-tensorflow)).
 * **StorySeed:** Developed StorySeed, a Hugging Face Space that generates story ideas from images ([HuggingFace Spaces](https://huggingface.co/spaces/anasrz/StorySeed)).
 * **Evaluating Modern Vision Architectures on 3D Biomedical Data:** Published a Colab notebook and Google Slides presentation that compare the performance of different vision architectures on 3D biomedical data ([Colab Notebook](https://colab.research.google.com/drive/1nz-NtGxC3NeSJh4ZWQ8jabzBlawnvIWe?usp=sharing), [slides](https://docs.google.com/presentation/d/1o1SD0WHBJEqvjOIJWys-Y6z80uuiejmC/edit?usp=sharing&ouid=118316226676823953327&rtpof=true&sd=true)).
