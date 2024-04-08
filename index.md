@@ -19,6 +19,8 @@ Outside of work, I enjoy reading 📚, playing badminton 🏸 and ping pong 🏓
 * **April 2023:** [Multimodaltrace: Deepfake Detection using Audiovisual Representation Learning](https://openaccess.thecvf.com/content/CVPR2023W/WMF/html/Raza_Multimodaltrace_Deepfake_Detection_Using_Audiovisual_Representation_Learning_CVPRW_2023_paper.html) (CVPR 2023 Workshop on Media Forensics)
 
 **Projects**
+* Facial Recognition Deployment with PostgreSQL and `pgvector`: Deployment of a FastAPI application that utilizes PostgreSQL as its database backend, with support for the pgvector extension for facial recognition. It includes functionality for extracting and saving facial embeddings to PostgreSQL, as well as comparing new embeddings to find the closest facial embeddings.
+* **K3-Addons: Additional multi-backend functionality for Keras 3.** Multibackend attention mechanisms, advanced optimizers, or specialized layers, etc in Keras 3.
 * **K3IM: Keras 3 Image Models** Implementation of Image Models  and their 1D/3D/Space-Time extensions in Keras 3 \(more than 30 in total\). The models have been trained and tested with TensorFlow, PyTorch and JAX backends. ([repo](https://github.com/anas-rz/k3im/))
 * **Keras Core:** Open-source contributions include implementing cross-backend patch extraction for vision transformer-like models and porting examples to Keras Core ([merged pull requests](https://github.com/keras-team/keras-core/pulls?q=is%3Apr+is%3Amerged+author%3Aanas-rz)).
 * **Deep Forgery Detector:** Designed and developed Deep Forgery Detector, an extensible framework for deploying visual deepfake detection algorithms (work done at SMILES Lab @ Oakland University).
