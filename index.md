@@ -15,6 +15,7 @@ Outside of work, I enjoy reading 📚, playing badminton 🏸 and ping pong 🏓
 
 **Publications**
 
+* **June 2024:** RuleBoost: A Neuro-Symbolic Framework for Robust Deepfake Detection (International Joint Conference on Biometrics)
 * **May 2023:** [HolisticDFD: Spatiotemporal Transformer Embeddings Infusion for Deepfake Detection](https://www.sciencedirect.com/science/article/abs/pii/S0020025523009374) (Information Sciences)
 * **April 2023:** [Multimodaltrace: Deepfake Detection using Audiovisual Representation Learning](https://openaccess.thecvf.com/content/CVPR2023W/WMF/html/Raza_Multimodaltrace_Deepfake_Detection_Using_Audiovisual_Representation_Learning_CVPRW_2023_paper.html) (CVPR 2023 Workshop on Media Forensics)
 
