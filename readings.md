@@ -8,7 +8,7 @@ published: true
 
 I've loved reading since primary school, starting with Hamdard Naunehal and Phool, and progressing to Naseem Hijazi novels, history, humor, personal development, and tech. I was once addicted to reading newspapers cover to cover daily. My reading habit enriches my life and aids my research in all fields.
 
-* **Re-Create Your Life** by Morty Lefkoe \(now reading\)
+* **How to Hug a Porcupine: Easy Ways to Love the Difficult People in Your Life**: A wonderful short read.
 
 * **Win Every Argument** by Mehdi Hasan: Mehdi Hasan's passionate and engaging style, along with his wonderful rhetorical tools, make this book a must-read for anyone who wants to have more effective debates and conversations. 
 
