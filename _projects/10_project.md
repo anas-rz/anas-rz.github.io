@@ -1,5 +1,4 @@
 ---
-
 layout: page
 title: Oil Debris Monitoring System using Deep Learning
 description: Deep learning-based time-series anomaly detection system for preventive maintenance in mechanical systems (undergraduate project at UET Taxila).
