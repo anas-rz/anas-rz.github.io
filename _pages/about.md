@@ -34,7 +34,7 @@ I fell in love with programming in 6th grade when I learned that my friend could
 As an AI/ML researcher and software engineer, my core expertise lies in deep learning, computer vision, and framework architecture. I am highly proficient in TensorFlow but maintain the flexibility to seamlessly develop and deploy models across PyTorch and JAX. My work spans from building modular benchmarking pipelines for deepfake detection to engineering high-performance, multi-backend open-source libraries for vision models and Graph Neural Networks. I am incredibly passionate about leveraging machine learning to design intelligent, autonomous frameworks and solve complex, real-world problems.
 
 
-Outside of work, I enjoy reading 📚, and strength training 💪. I'm a lifelong learner 🧠 with a passion for machine learning, robotics, simulation, and open-source development, and I enjoy turning research ideas into practical projects.
+Outside of work, I enjoy reading 📚, and strength training 💪.
 
 **Updates**
 
