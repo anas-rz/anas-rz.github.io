@@ -1,81 +1,147 @@
 ---
 layout: page
-title: project 8
-description: an other project with a background image and giscus comments
-img: assets/img/9.jpg
-importance: 2
-category: work
-giscus_comments: true
+title: FocalNet – TensorFlow Implementation
+description: TensorFlow translation of FocalNet (Focal Modulation Network), an attention-free vision architecture by Microsoft.
+img: 
+importance: 1
+category: open-source
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# FocalNet: TensorFlow Implementation
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This project is a **TensorFlow implementation of FocalNet (Focal Modulation Network)**, an attention-free vision architecture introduced by Microsoft in 2022. FocalNet replaces self-attention with focal modulation, achieving strong performance across multiple vision benchmarks while improving efficiency.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## Overview
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+FocalNet is designed as an alternative to transformer-based attention models. Instead of computing self-attention, it uses:
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+* Focal modulation layers
+* Hierarchical feature aggregation
+* Efficient spatial context modeling
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+This implementation brings FocalNet into the **TensorFlow ecosystem**, enabling seamless integration into TensorFlow-based pipelines and research workflows.
 
-{% raw %}
+---
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
+## Key Features
+
+* Pure TensorFlow implementation
+* Attention-free architecture
+* Multiple scalable model variants
+* Compatible with Keras-style workflows
+* Easy installation via pip
+* Research-ready modular design
+
+---
+
+## Installation
+
+```bash id="focal_tf_install"
+pip install focalnet-tensorflow
 ```
 
-{% endraw %}
+---
+
+## Usage
+
+```python id="focal_tf_usage"
+from focalnet_tensorflow import *
+
+model = focalnet_huge_fl3()
+```
+
+A full usage example is available in:
+
+* `test_notebook_focalnet_tensorflow.ipynb`
+
+---
+
+## Model Variants
+
+The implementation includes a wide range of pretrained-like configurations:
+
+### Small to Base Models
+
+* focalnet_tiny_srf
+* focalnet_small_srf
+* focalnet_base_srf
+* focalnet_tiny_lrf
+* focalnet_small_lrf
+* focalnet_base_lrf
+
+### Isotropic Variants
+
+* focalnet_tiny_iso_16
+* focalnet_small_iso_16
+* focalnet_base_iso_16
+
+### Large Scale Models
+
+* focalnet_large_fl3
+* focalnet_large_fl4
+* focalnet_xlarge_fl3
+* focalnet_xlarge_fl4
+* focalnet_huge_fl3
+* focalnet_huge_fl4
+
+---
+
+## Architecture Insight
+
+FocalNet replaces traditional self-attention with:
+
+* Focal modulation blocks for feature interaction
+* Multi-scale context aggregation
+* Efficient spatial reasoning without quadratic attention cost
+
+This makes it a strong alternative to transformer-based vision architectures.
+
+---
+
+## Todo
+
+* [ ] Test ported weights
+* [ ] Create a PR at original FocalNet repository
+
+---
+
+## Applications
+
+* Image classification
+* Vision representation learning
+* Efficient CNN/Transformer alternatives
+* Research in attention-free architectures
+* TensorFlow-based deployment pipelines
+
+---
+
+## Technologies
+
+* TensorFlow
+* Keras
+* Python
+* Computer Vision
+* Deep Learning
+
+---
+
+## Related Work
+
+* Original FocalNet (Microsoft Research)
+* Paper: https://arxiv.org/abs/2203.11926
+* GitHub: https://github.com/microsoft/FocalNet/
+
+---
+
+## Repository
+
+https://github.com/anas-rz/focalnet-tensorflow
+
+---
+
+## Summary
+
+This project provides a clean TensorFlow translation of FocalNet, enabling researchers to explore attention-free vision models within the TensorFlow ecosystem while maintaining compatibility with modern deep learning workflows.

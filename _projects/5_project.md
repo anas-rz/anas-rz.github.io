@@ -1,80 +1,121 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: Deep Forgery Detector
+description: Modular framework for benchmarking and deploying deepfake video detection models developed at SMILES Lab, Oakland University.
+img: 
+importance: 1
+category: research
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# Deep Forgery Detector
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Deep Forgery Detector is an extensible and modular framework designed for **deploying, benchmarking, and comparing deepfake detection algorithms in videos and visual data**. The project was developed during research work at the **SMILES Lab, Oakland University**, with a focus on enabling rapid experimentation with state-of-the-art forgery detection methods.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## Overview
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+The rapid rise of deepfake generation techniques has created a strong need for reliable and scalable detection systems. Deep Forgery Detector addresses this challenge by providing a unified framework that allows researchers to:
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+* Integrate new deepfake detection models quickly
+* Benchmark multiple architectures under consistent evaluation settings
+* Run reproducible experiments on video and image datasets
+* Extend the framework for future research contributions
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+The system is designed with modularity and extensibility as its core principles.
 
-{% raw %}
+---
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Key Features
 
-{% endraw %}
+* Modular architecture for plug-and-play model integration
+* Support for multiple deepfake detection models
+* Benchmarking pipeline for fair comparison of methods
+* Video-based and frame-based evaluation support
+* Extensible dataset handling system
+* Research-friendly design for rapid experimentation
+* Clean separation between data loading, model, and evaluation layers
+
+---
+
+## System Design
+
+The framework follows a structured pipeline:
+
+* Data preprocessing and frame extraction
+* Model inference (deepfake classifiers)
+* Temporal and spatial feature aggregation
+* Evaluation and benchmarking metrics
+* Result visualization and comparison
+
+This design ensures consistency across different research models while maintaining flexibility.
+
+---
+
+## Research Context
+
+This work was carried out at the **SMILES Lab, Oakland University**, focusing on improving reproducibility and scalability in deepfake detection research. The framework was designed to support both:
+
+* Classical deep learning-based detectors
+* Emerging transformer-based video analysis models
+
+---
+
+## Applications
+
+Deep Forgery Detector can be used for:
+
+* Deepfake video detection research
+* Benchmarking detection algorithms
+* Media authenticity verification
+* Academic research in computer vision security
+* Dataset evaluation and model comparison
+
+---
+
+## Impact
+
+This framework enables:
+
+* Faster prototyping of deepfake detection models
+* Standardized evaluation across research methods
+* Easier reproducibility of published approaches
+* Extension of state-of-the-art detection pipelines
+
+---
+
+## Technologies
+
+* Python
+* PyTorch / TensorFlow (depending on model integration)
+* OpenCV
+* NumPy
+* Deep Learning for Video Analysis
+* Computer Vision pipelines
+
+---
+
+## Affiliation
+
+Developed at:
+
+**SMILES Lab**
+Oakland University
+
+---
+
+## Future Enhancements
+
+* Integration of transformer-based video models
+* Real-time deepfake detection pipeline
+* Web-based demo interface
+* Distributed benchmarking system
+* Support for multimodal (audio-visual) deepfake detection
+
+---
+
+
+## Summary
+
+Deep Forgery Detector provides a unified and extensible research framework for advancing the field of deepfake detection, enabling reproducible benchmarking and rapid integration of emerging detection models.

@@ -1,80 +1,132 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Keras Core Contributions (Backend-Agnostic ML & Vision Models)
+description: Contributions to Keras Core including backend-agnostic vision transformer components, example ports, and core API improvements (later migrated into Keras 3).
+img: 
+importance: 1
+category: open-source
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# Keras Core Contributions
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This project highlights a series of **open-source contributions to Keras Core**, focusing on making deep learning examples and components **backend-agnostic across TensorFlow, JAX, and PyTorch**. These contributions helped shape early multi-backend design patterns that were later **migrated and evolved into Keras 3**.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+> Many of these implementations and design patterns were later **shifted into Keras 3**, aligning with its unified multi-backend architecture.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+---
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Overview
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+The contributions include:
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+* Backend-agnostic implementations of vision and sequence models
+* Cross-backend utility functions (e.g., patch extraction for Vision Transformers)
+* Migration of research examples into Keras Core
+* Improvements to model portability across frameworks
+* Fixes and enhancements to core example implementations
 
-{% raw %}
+These efforts contributed to the transition toward a fully **multi-backend Keras ecosystem**.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+---
 
-{% endraw %}
+## Key Technical Contribution Areas
+
+### 1. Cross-Backend Vision Transformer Utilities
+
+A major contribution was implementing **cross-backend patch extraction operations**, enabling Vision Transformer-like models to run consistently across frameworks.
+
+* Implemented backend-agnostic patch extraction in core ops
+* Improved compatibility for transformer-based architectures
+
+---
+
+### 2. Porting Research Models to Keras Core
+
+Multiple research models and examples were migrated into Keras Core:
+
+* SimSiam self-supervised learning
+* Neural Decision Forests
+* Token Learner models
+* External Attention mechanisms
+* Compact Convolution Transformer (CCT)
+* Vision Transformer variants
+* DeepLabV3+ segmentation model
+
+---
+
+### 3. Backend-Agnostic Example Frameworks
+
+Converted several educational and research examples into framework-independent implementations:
+
+* Few-shot learning (Reptile algorithm)
+* Actor-Critic reinforcement learning (CartPole)
+* Time-series anomaly detection
+* Image denoising autoencoders
+* Keypoint detection pipelines
+* Grad-CAM visualization utilities
+
+---
+
+## Merged Pull Requests
+
+Below is a selection of merged contributions:
+
+* Syntax fix in CCT example — PR #898
+* Port SimSiam to Keras Core — PR #644
+* Port “Visualizing What ConvNets Learn” — PR #640
+* Neural Decision Forest port — PR #631
+* FixRes Keras Core port — PR #630
+* Learnable Resizer (backend-agnostic) — PR #622
+* TabTransformer example port — PR #621
+* Big Transfer (BiT) port — PR #615
+* Digit Addition RNN example — PR #614
+* GCAM backend-agnostic implementation — PR #601
+* Patch extraction implementation in ops — PR #581
+* Backend-agnostic example refactor — PR #567
+* Few-shot learning (Reptile) — PR #564
+* Keypoint detection backend-agnostic port — PR #546
+* DeepLabV3+ conversion — PR #545
+* Actor-Critic CartPole — PR #542
+* External Attention conversion — PR #529
+* Token Learner conversion — PR #528
+* Image denoising autoencoder framework — PR #524
+* Compact Convolution Transformer conversion — PR #523
+* Time-series anomaly detection framework — PR #501
+* Vision Transformer without Attention — PR #497
+
+---
+
+## Impact
+
+These contributions helped:
+
+* Strengthen Keras Core’s multi-backend abstraction layer
+* Improve portability of research models across frameworks
+* Enable reproducible ML examples across TensorFlow, JAX, and PyTorch
+* Lay foundational work later integrated into **Keras 3**
+
+---
+
+## Technologies
+
+* Python
+* Keras Core
+* TensorFlow
+* JAX
+* PyTorch
+* Deep Learning Research Models
+
+---
+
+## Repository
+
+Merged contributions can be explored here:
+
+https://github.com/keras-team/keras-core/pulls?q=is%3Apr+is%3Amerged+author%3Aanas-rz
+
+---
+
+## Notes
+
+These contributions were part of the early evolution of Keras Core and directly influenced the design direction of **Keras 3 multi-backend APIs**.

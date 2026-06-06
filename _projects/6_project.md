@@ -1,80 +1,118 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: Forensic Examiner
+description: Extensible framework for benchmarking and evaluating audio spoofing detection algorithms developed at SMILES Lab, Oakland University.
+img: 
+importance: 1
+category: research
+related_publications: false
+---------------------------
+
+# Forensic Examiner
+
+Forensic Examiner is a modular and extensible research framework designed for **benchmarking, evaluating, and comparing audio spoofing detection algorithms**. The project was developed at the **SMILES Lab, Oakland University**, with the goal of enabling systematic and reproducible evaluation of audio forensic models.
+
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Audio spoofing attacks, including replay attacks, voice conversion, and text-to-speech synthesis, pose significant threats to modern authentication systems. Forensic Examiner addresses this challenge by providing a unified evaluation framework for research in audio spoof detection.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The framework enables researchers to:
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+* Benchmark multiple audio spoof detection models under consistent settings
+* Evaluate performance across different spoofing attack types
+* Integrate new detection methods with minimal effort
+* Ensure reproducibility of experimental results
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+---
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## Key Features
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+* Modular architecture for audio spoof detection pipelines
+* Support for multiple spoofing attack categories
+* Standardized benchmarking and evaluation metrics
+* Dataset-agnostic design for flexible experimentation
+* Easy integration of new research models
+* Clean separation of preprocessing, inference, and evaluation stages
+* Research-oriented and extensible design
 
-{% raw %}
+---
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## System Architecture
 
-{% endraw %}
+The framework follows a structured pipeline:
+
+* Audio preprocessing and feature extraction
+* Model inference for spoof detection
+* Score aggregation and decision logic
+* Evaluation using standardized metrics
+* Comparative benchmarking across models
+
+This ensures fair and reproducible evaluation across different detection approaches.
+
+---
+
+## Research Context
+
+This work was conducted at the **SMILES Lab, Oakland University**, focusing on improving reproducibility and benchmarking practices in audio security research. The framework supports both classical signal-processing methods and modern deep learning approaches for spoof detection.
+
+---
+
+## Applications
+
+Forensic Examiner can be applied in:
+
+* Audio spoof detection research
+* Voice authentication security systems
+* Benchmarking speaker verification defenses
+* Academic research in audio forensics
+* Evaluation of deep learning-based audio classifiers
+
+---
+
+## Impact
+
+This framework enables:
+
+* Standardized evaluation of audio spoofing detection models
+* Faster experimentation and prototyping
+* Improved reproducibility in audio forensic research
+* Easier comparison of state-of-the-art methods
+
+---
+
+## Technologies
+
+* Python
+* PyTorch / TensorFlow (model-dependent)
+* Librosa
+* NumPy
+* Audio signal processing
+* Deep learning for speech and audio
+
+---
+
+## Affiliation
+
+Developed at:
+
+**SMILES Lab**
+Oakland University
+
+---
+
+## Future Enhancements
+
+* Real-time audio spoof detection system
+* Integration with speaker verification pipelines
+* Transformer-based audio classification models
+* Multilingual spoof detection support
+* Web-based evaluation dashboard
+
+---
+
+
+## Summary
+
+Forensic Examiner provides a unified and extensible framework for advancing research in audio spoof detection, enabling fair benchmarking and reproducible evaluation across diverse detection methodologies.

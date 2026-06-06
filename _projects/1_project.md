@@ -4,7 +4,7 @@ title: Facial Recognition Deployment with PostgreSQL and pgvector
 description: Scalable facial recognition system using FastAPI, PostgreSQL, pgvector, Docker, and Kubernetes.
 img: assets/img/project_1.png
 importance: 1
-category: work
+category: open-source
 related_publications: false
 ---
 
@@ -12,14 +12,14 @@ related_publications: false
 
 A production-ready facial recognition system built with FastAPI and PostgreSQL, leveraging the pgvector extension for efficient vector similarity search. The project supports facial embedding extraction, storage, and nearest-neighbor matching while providing scalable deployment options through Docker and Kubernetes.
 
-<div class="row">
+<!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/facial-recognition/deploying-app.png" title="Application Architecture" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     High-level deployment architecture showing FastAPI, PostgreSQL, Docker, and Kubernetes integration.
-</div>
+</div> -->
 
 ## Overview
 
@@ -52,7 +52,7 @@ The solution supports both Docker Compose deployments for local environments and
 * Google Kubernetes Engine (GKE)
 * psycopg2
 
-## System Architecture
+<!-- ## System Architecture
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -64,7 +64,7 @@ The solution supports both Docker Compose deployments for local environments and
 </div>
 <div class="caption">
     FastAPI service communicates with PostgreSQL and pgvector to store and compare facial embeddings.
-</div>
+</div> -->
 
 ## Docker Deployment
 
@@ -146,7 +146,7 @@ This project demonstrates:
 * Persistent storage management in containerized environments
 * Scalable API-driven architecture
 
-<div class="row">
+<!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/projects/facial-recognition/api-demo.png" title="API Demo" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -159,7 +159,7 @@ This project demonstrates:
 </div>
 <div class="caption">
     Example API interactions, facial matching results, and Kubernetes deployment.
-</div>
+</div> -->
 
 ## Repository
 

@@ -1,81 +1,280 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://www.wikipedia.org/
-importance: 3
-category: work
+title: K3IM – Keras 3 Image Models
+description: A comprehensive multi-backend model zoo for image, 1D, 3D, and video classification using Keras 3.
+img: assets/img/k3im.png
+importance: 1
+category: open-source
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# K3IM: Keras 3 Image Models
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+K3IM is a large-scale model zoo built on top of **Keras 3**, providing a wide collection of classification architectures for **1D signals, 2D images, 3D volumes, and video/spatiotemporal data**. It is designed to work seamlessly across multiple backends including TensorFlow, PyTorch, and JAX, enabling flexible experimentation and research across different machine learning ecosystems.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
+<!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/k3im/banner.png" title="K3IM Banner" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+    K3IM provides a unified ecosystem of modern deep learning architectures across multiple data modalities.
+</div> -->
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Overview
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+K3IM brings together a wide range of modern neural network architectures, including:
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+* Vision Transformers (ViT, Swin, DeepViT, CaiT)
+* MLP-based architectures (MLP-Mixer, gMLP)
+* Convolution-Transformer hybrids (CCT, ConvMixer)
+* Attention-based models (CrossViT, External Attention Networks)
+* Fourier and token-based architectures
+* 1D, 2D, and 3D model variants
 
-{% raw %}
+It enables researchers and practitioners to quickly deploy and compare state-of-the-art architectures across different domains.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
+## Key Features
+
+* Multi-backend support (TensorFlow, PyTorch, JAX)
+* Unified API across 1D, 2D, and 3D models
+* Extensive transformer-based architectures
+* Lightweight and efficient convolutional hybrids
+* Prebuilt models for rapid experimentation
+* Video and spatiotemporal model support
+* Modular design for research extensibility
+
+## Installation
+
+```bash id="k3im_install"
+pip install k3im --upgrade
 ```
 
-{% endraw %}
+## Backend Configuration
+
+K3IM supports multiple backends via Keras 3:
+
+```python id="backend_setup"
+import os
+os.environ["KERAS_BACKEND"] = "jax"  # or "tensorflow" or "torch"
+```
+
+> Ensure the backend is set **before importing Keras or K3IM**.
+
+## Model Families
+
+K3IM includes a wide range of architectures:
+
+### Vision Transformers
+
+* Vision Transformer (ViT)
+* DeepViT
+* Swin Transformer
+* CaiT (Class-Attention in Image Transformers)
+* CrossViT
+* Simple ViT variants
+
+### Convolution-Transformer Hybrids
+
+* Compact Convolution Transformer (CCT)
+* ConvMixer (1D / 2D / 3D)
+* Focal Modulation Networks
+
+### MLP-Based Models
+
+* MLP-Mixer (1D/2D/3D)
+* gMLP
+* Token Learner models
+
+### Attention-Based Models
+
+* External Attention Networks (EANet)
+* FNet (Fourier-based attention replacement)
+
+## Architecture Highlights
+
+### Compact Convolution Transformer (CCT)
+
+Combines convolutional feature extraction with transformer encoders for efficient learning.
+
+```python
+from k3im.cct import CCT
+
+model = CCT(
+    input_shape=(28, 28, 1),
+    num_heads=8,
+    projection_dim=32,
+    kernel_size=3,
+    stride=3,
+    padding=2,
+    transformer_units=[16, 32],
+    transformer_layers=2,
+    num_classes=10,
+)
+```
+
+### ConvMixer
+
+A fully convolutional architecture inspired by ViT and MLP-Mixer ideas.
+
+```python
+from k3im.convmixer import ConvMixer
+
+model = ConvMixer(
+    image_size=28,
+    filters=64,
+    depth=8,
+    kernel_size=3,
+    patch_size=2,
+    num_classes=10,
+    num_channels=1
+)
+```
+
+### Vision Transformer (ViT)
+
+```python
+from k3im.vit_1d import ViT1DModel
+
+model = ViT1DModel(
+    seq_len=500,
+    patch_size=20,
+    num_classes=10,
+    dim=32,
+    depth=3,
+    heads=8,
+    mlp_dim=64,
+)
+```
+
+### Swin Transformer
+
+Hierarchical transformer with shifted window attention.
+
+```python
+from k3im.swint import SwinTModel
+
+model = SwinTModel(
+    img_size=28,
+    patch_size=7,
+    embed_dim=32,
+    num_heads=4,
+    window_size=4,
+    shift_size=2,
+    num_classes=10,
+)
+```
+
+### MLP-Mixer
+
+Pure MLP-based architecture for vision tasks.
+
+```python
+from k3im.mlp_mixer import mixer_b16_224
+
+model = mixer_b16_224(pretrained=True)
+```
+
+## Supported Architectures (Full List)
+
+### Attention & Transformer Models
+
+* CaiT
+* CrossViT
+* DeepViT
+* Swin Transformer
+* FNet
+* External Attention Networks
+
+### MLP-Based Models
+
+* MLP-Mixer (1D/2D/3D)
+* gMLP
+
+### Convolution-Based Models
+
+* ConvMixer (1D/2D/3D)
+* CCT (1D/2D/3D)
+
+### Specialized Models
+
+* Token Learner ViT
+* Simple ViT variants
+* ViT with FFT
+* ViT with Patch Dropout
+* ViT with Register Tokens
+
+## Usage Workflow
+
+### 1. Use Prebuilt Models
+
+```python
+from k3im.cross_vit import CrossViT
+
+model = CrossViT(
+    image_size=28,
+    num_classes=10,
+    sm_dim=32,
+    lg_dim=42,
+)
+```
+
+### 2. Customize Architectures
+
+All models are modular and allow customization of:
+
+* Depth
+* Embedding dimensions
+* Attention heads
+* Patch sizes
+* Dropout rates
+
+### 3. Multi-Backend Execution
+
+```python
+import os
+os.environ["KERAS_BACKEND"] = "torch"
+```
+
+## Supported Data Types
+
+* 1D time-series signals
+* 2D images
+* 3D medical/scientific volumes
+* Video sequences (spatiotemporal modeling)
+
+## Applications
+
+* Image classification
+* Video classification
+* Time-series classification
+* Medical imaging
+* Scientific simulations
+* Remote sensing
+
+## Impact
+
+K3IM enables:
+
+* Rapid prototyping of SOTA architectures
+* Cross-framework reproducibility
+* Unified experimentation across modalities
+* Research acceleration in vision and sequence modeling
+
+## Repository
+
+GitHub:
+
+https://github.com/anas-rz/k3im
+
+## Future Work
+
+* Vision-language model extensions
+* Self-supervised learning models
+* Larger pretrained model zoo
+* Efficient transformer variants
+* GPU-optimized inference pipelines
+
+## Acknowledgements
+
+K3IM builds upon the advancements in Vision Transformers, MLP architectures, convolutional networks, and Keras 3 multi-backend ecosystem.
