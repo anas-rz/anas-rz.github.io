@@ -1,189 +1,127 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Muhammad Anas Raza
+  label: Scholar
+  email: memanasraza@gmail.com
+  location: Auburn Hills and Rochester, Michigan
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
+  summary: Passionate AI/ML researcher with expertise in machine learning, deep learning, computer vision, and data science. Proficient in Python, Pandas, NumPy, Scikit-learn, TensorFlow, and PyTorch. Experienced in exploratory data analysis, data preprocessing, statistical methods, and data visualization (Matplotlib, Seaborn). Skilled in developing and validating ML algorithms on real-world datasets, including image processing and time-series data. Strong communicator with cross-functional collaboration experience. Open-source contributor (Keras).
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
-      username: example
+      username: memanasraza
+    - network: GitHub
+      username: anas-rz
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
+    street: ""
+    city: Rochester
+    region: Michigan
+    postalCode: ""
     countryCode: US
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: Oakland University
+        location: Rochester, MI
+        url: ""
+        area: Computer Science & Informatics
+        studyType: Ph.D.
+        start_date: 2022-05
+        end_date: Present
+        score: "3.78"
+        courses: "Research Focus: ML in Software Engineering"
+        highlights: []
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: Oakland University
+        location: Rochester, MI
+        url: ""
+        area: Computer Science
+        studyType: M.S.
+        start_date: 2022-05
+        end_date: 2024-04
+        score: "3.76"
+        courses: "Visual Computing, Object Oriented Analysis, Advanced Data Structures & Algorithms"
+        highlights: []
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Oakland University
+        position: Graduate Research & Teaching Assistant
+        location: Rochester, MI
+        start_date: 2022-05
+        end_date: Present
+        summary: "Conduct advanced academic research and teach courses within the Computer Science department."
         highlights:
-          - Relativity
-          - Description 2.
+          - "Software Engineering & LLM Agent Research: Investigate automated software engineering techniques, including Graph Neural Networks for fault localization in machine learning systems and the development of multimodal automated machine learning (AutoML) pipelines. Automated Software engineering using LLM agents."
+          - "Computer Vision Research and Development: Conduct research on deepfake detection using Vision Transformers, MLP-Mixer, gMLP, FNet, and Convolutional Neural Networks. Perform experiments in both vision-only and multimodal, neuro-symbolic settings on large-scale datasets including DFDC (124K videos) and FakeAVCeleb (21K videos)."
+          - "Deep Forgery Detector: Designed and developed in-house Deep Forgery Detector, a modular framework for benchmarking and comparing video deepfake detection algorithms, with extensible architecture enabling rapid integration of new research models."
+          - "Forensic Examiner: Developed a flexible framework for evaluating audio spoofing detection algorithms, built using Python, PyTorch, TensorFlow, and Streamlit for interactive experimentation and analysis."
+          - "Teaching Assistant: Assisted in courses on Machine Learning and Software Testing, including grading assignments, supporting laboratory sessions, and mentoring students on programming and machine learning projects."
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Sense Digital AI
+        position: Software Engineer
+        location: ""
+        start_date: 2020-12
+        end_date: 2021-07
+        summary: "Developed IoT pipelines and edge AI infrastructure solutions."
         highlights:
-          - Description 1.
-          - Description 2.
+          - "IoT Data Pipeline: Designed and implemented automated data ingestion pipelines for time-series data from building automation systems using BACnet, enabling large-scale monitoring of HVAC and building efficiency metrics."
+          - "Edge AI Infrastructure: Developed and deployed edge-based data processing and monitoring solutions on Nvidia Jetson Nano devices for real-time building analytics."
+          - "Data Visualization & Deployment: Built and containerized data visualization and monitoring dashboards for building efficiency products using InfluxDB and Grafana, and deployed them on Linux-based edge devices."
+          - "Tech Stack: Python, Linux (Arch), Nvidia Jetson Nano, Volttron, Docker, InfluxDB, Grafana, Bash."
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+    Volunteer: []
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
+    Awards: []
 
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+    Publications: []
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Languages & Frameworks
+        level: Expert
+        icon: fa-solid fa-code
+        keywords: "Python, JavaScript, Keras, TensorFlow, PyTorch, JAX, Streamlit"
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: Technology
+        level: Expert
+        icon: fa-solid fa-laptop-code
+        keywords: "Artificial Intelligence, Git, Docker, Machine Learning, Deep Learning, RAG, Web Development, MERN Stack, Large Language Models, Multimodal Learning, Graph Neural Networks"
 
-      - name: English
-        summary: "Fluent"
+      - name: Soft Skills
+        level: Intermediate
+        icon: fa-solid fa-users
+        keywords: "Communication Skills, Public Speaking, Leadership & Mentorship"
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+    Languages: []
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+    Interests: []
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+    Certificates: []
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: "K3IM: Image Models in Keras - Open Source"
+        summary: "Developed K3IM, an open-source Keras 3 library implementing 50+ state-of-the-art architectures (ViT, Swin, ConvMixer) with native support for 1D, 2D, and 3D/spatiotemporal data. Engineered for multi-backend compatibility, the project enables seamless execution across TensorFlow, PyTorch, and JAX, integrating advanced research features like Class-Attention and Focal Modulation to provide a flexible, high-performance framework for modern machine learning research."
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - "Link: https://github.com/anas-rz/k3im"
+        start_date: 2023-12
+        end_date: 2024-02
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: "K3 Addons: Addons for Keras 3 - Open Source"
+        summary: "Developed K3-Addons, an open-source suite of specialized layers, losses, and activations that extends the Keras 3 ecosystem with multi-backend support (JAX, PyTorch, TensorFlow). I engineered high-performance implementations of modern components, including Attention mechanisms (Mobile ViT, CBAM, ECA), Adaptive Pooling layers parity-matched with PyTorch, and advanced loss functions like GIoU and Sigmoid Focal Cross-Entropy."
+        highlights:
+          - "Link: https://github.com/anas-rz/k3-addons"
+        start_date: 2023-12
+        end_date: 2024-03
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: "K3NODE: Multibackend Graph Neural Networks - Open Source"
+        summary: "Developed K3Node, a high-performance library for Graph Neural Networks (GNNs) built on Keras 3, porting and optimizing core components from Spektral, PyTorch Geometric, and StellarGraph. I implemented a modular suite of GNN layers (GCN, GAT, GraphSAGE, GIN) and advanced aggregation schemes like PowerMean and Softmax pooling, ensuring cross-framework compatibility."
+        highlights:
+          - "Link: https://github.com/anas-rz/k3-node"
+        start_date: 2024-01
+        end_date: 2024-02
+
+      - name: "Keras 3 Development - Open Source"
+        summary: "Contributed 20+ merged pull requests to the Keras 3 codebase, developing framework-agnostic implementations of complex architectures like DeepLabV3Plus, Vision Transformers, and SimSiam. Optimized core library operations, including patch extraction ops, and authored comprehensive examples for Reinforcement Learning and Computer Vision, ensuring robust performance across JAX, PyTorch, and TensorFlow backends."
+        highlights: []
+        start_date: 2023-07
+        end_date: 2023-09
+
+    References: []
