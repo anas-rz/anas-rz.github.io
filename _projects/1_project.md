@@ -6,7 +6,7 @@ img: assets/img/project_1.png
 importance: 1
 category: work
 related_publications: false
----------------------------
+---
 
 # Facial Recognition Deployment with PostgreSQL and pgvector
 
