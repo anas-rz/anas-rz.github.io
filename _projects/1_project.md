@@ -3,7 +3,7 @@
 layout: page
 title: Facial Recognition Deployment with PostgreSQL and pgvector
 description: Scalable facial recognition system using FastAPI, PostgreSQL, pgvector, Docker, and Kubernetes.
-img: assets/img/projects/facial-recognition/cover.png
+img: assets/img/project_1.png
 importance: 1
 category: work
 related_publications: false
