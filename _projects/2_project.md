@@ -2,7 +2,7 @@
 layout: page
 title: K3 Addons
 description: Multi-backend extensions for Keras 3 featuring advanced layers, attention mechanisms, losses, and activations.
-img: assets/img/k3-addons.png
+img: assets/img/k-addons.png
 importance: 1
 category: open-source
 related_publications: false
