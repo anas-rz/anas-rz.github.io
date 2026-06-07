@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>PhD Scholar</a>. Oakland University
+subtitle: <a href='#'>PhD Scholar</a>. Computer Science and Engineering Department, Oakland University
 
 profile:
   align: right
