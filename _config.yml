@@ -9,11 +9,8 @@ last_name: Raza
 contact_note: >
   The beat way to contact me is via email/Whatsapp. I am also available on LinkedIn and GitHub.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+  I am a passionate AI/ML researcher with expertise in machine learning, deep learning, computer vision, and data science. Proficient in Python, Pandas, NumPy, Scikit-learn, TensorFlow, and PyTorch. Experienced in exploratory data analysis, data preprocessing, statistical methods, and data visualization (Matplotlib, Seaborn). Skilled in developing and validating ML algorithms on real-world datasets, including image processing and time-series data. Strong communicator with cross-functional collaboration experience. Open-source contributor (Keras).
+footer_text: 
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
