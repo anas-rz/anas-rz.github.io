@@ -3,7 +3,7 @@ cv:
   label: Scholar
   email: memanasraza@gmail.com
   location: Auburn Hills and Rochester, Michigan
-  image: ""
+  # image: ""
   summary: Passionate AI/ML researcher with expertise in machine learning, deep learning, computer vision, and data science. Proficient in Python, Pandas, NumPy, Scikit-learn, TensorFlow, and PyTorch. Experienced in exploratory data analysis, data preprocessing, statistical methods, and data visualization (Matplotlib, Seaborn). Skilled in developing and validating ML algorithms on real-world datasets, including image processing and time-series data. Strong communicator with cross-functional collaboration experience. Open-source contributor (Keras).
   social_networks:
     - network: LinkedIn
@@ -12,10 +12,10 @@ cv:
       username: anas-rz
 
   address:
-    street: ""
+    # street: ""
     city: Rochester
     region: Michigan
-    postalCode: ""
+    postalCode: "48326"
     countryCode: US
 
   sections:
@@ -33,7 +33,7 @@ cv:
 
       - institution: Oakland University
         location: Rochester, MI
-        url: ""
+        # url: ""
         area: Computer Science
         studyType: M.S.
         start_date: 2022-05
@@ -56,9 +56,9 @@ cv:
           - "Forensic Examiner: Developed a flexible framework for evaluating audio spoofing detection algorithms, built using Python, PyTorch, TensorFlow, and Streamlit for interactive experimentation and analysis."
           - "Teaching Assistant: Assisted in courses on Machine Learning and Software Testing, including grading assignments, supporting laboratory sessions, and mentoring students on programming and machine learning projects."
 
-      - company: Sense Digital AI
+      - company: Sense Digital Private Limited / Later on EcoEdgeAI
         position: Software Engineer
-        location: ""
+        location: "Islamabad, Pakistan"
         start_date: 2020-12
         end_date: 2021-07
         summary: "Developed IoT pipelines and edge AI infrastructure solutions."
@@ -90,7 +90,7 @@ cv:
         icon: fa-solid fa-users
         keywords: "Communication Skills, Public Speaking, Leadership & Mentorship"
 
-    Languages: []
+    Languages: [English, Urdu, Punjabi]
 
     Interests: []
 
