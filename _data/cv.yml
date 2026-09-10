@@ -3,8 +3,7 @@ cv:
   label: Scholar
   email: memanasraza@gmail.com
   location: Auburn Hills and Rochester, Michigan
-  # image: ""
-  summary: Passionate AI/ML researcher with expertise in machine learning, deep learning, computer vision, and data science. Proficient in Python, Pandas, NumPy, Scikit-learn, TensorFlow, and PyTorch. Experienced in exploratory data analysis, data preprocessing, statistical methods, and data visualization (Matplotlib, Seaborn). Skilled in developing and validating ML algorithms on real-world datasets, including image processing and time-series data. Strong communicator with cross-functional collaboration experience. Open-source contributor (Keras).
+  summary: Passionate AI/ML researcher focused on reliability engineering for deep learning and agentic AI systems, with a proven track record across diverse data modalities including language, audio, video, images, and graphs. Proficient in Python, TensorFlow, PyTorch, and JAX, with experience spanning exploratory data analysis, statistical methods, and ML algorithm development on real-world datasets. Also working on de novo protein design with ML, including AlphaFold, ESMFold, ProteinMPNN, and bioinformatics alignment tools. Strong communicator with cross-functional collaboration experience. Active open-source contributor (Keras, timm.cpp).
   social_networks:
     - network: LinkedIn
       username: memanasraza
@@ -12,7 +11,6 @@ cv:
       username: anas-rz
 
   address:
-    # street: ""
     city: Rochester
     region: Michigan
     postalCode: "48326"
@@ -22,25 +20,21 @@ cv:
     Education:
       - institution: Oakland University
         location: Rochester, MI
-        url: ""
         area: Computer Science & Informatics
         studyType: Ph.D.
         start_date: 2022-05
         end_date: Present
         score: "3.78"
         courses: "Research Focus: ML in Software Engineering"
-        highlights: []
 
       - institution: Oakland University
         location: Rochester, MI
-        # url: ""
         area: Computer Science
         studyType: M.S.
         start_date: 2022-05
         end_date: 2024-04
         score: "3.76"
         courses: "Visual Computing, Object Oriented Analysis, Advanced Data Structures & Algorithms"
-        highlights: []
 
     Experience:
       - company: Oakland University
@@ -68,12 +62,6 @@ cv:
           - "Data Visualization & Deployment: Built and containerized data visualization and monitoring dashboards for building efficiency products using InfluxDB and Grafana, and deployed them on Linux-based edge devices."
           - "Tech Stack: Python, Linux (Arch), Nvidia Jetson Nano, Volttron, Docker, InfluxDB, Grafana, Bash."
 
-    Volunteer: []
-
-    Awards: []
-
-    Publications: []
-
     Skills:
       - name: Languages & Frameworks
         level: Expert
@@ -90,11 +78,13 @@ cv:
         icon: fa-solid fa-users
         keywords: "Communication Skills, Public Speaking, Leadership & Mentorship"
 
-    Languages: [English, Urdu, Punjabi]
-
-    Interests: []
-
-    Certificates: []
+    Languages:
+      - language: English
+        fluency: Fluent
+      - language: Urdu
+        fluency: Native
+      - language: Punjabi
+        fluency: Native
 
     Projects:
       - name: "K3IM: Image Models in Keras - Open Source"
@@ -120,8 +110,5 @@ cv:
 
       - name: "Keras 3 Development - Open Source"
         summary: "Contributed 20+ merged pull requests to the Keras 3 codebase, developing framework-agnostic implementations of complex architectures like DeepLabV3Plus, Vision Transformers, and SimSiam. Optimized core library operations, including patch extraction ops, and authored comprehensive examples for Reinforcement Learning and Computer Vision, ensuring robust performance across JAX, PyTorch, and TensorFlow backends."
-        highlights: []
         start_date: 2023-07
         end_date: 2023-09
-
-    References: []
