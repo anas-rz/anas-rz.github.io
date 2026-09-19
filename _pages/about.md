@@ -50,4 +50,5 @@ Outside of research, I enjoy reading 📚 and strength training 💪.
 
 **Updates**
 
+* **September 18, 2026:** Released Keras Climate: A multi-backend framework for Earth Observation and Climate Modeling.[Link](https://anas-rz.github.io/keras-climate)
 * **October 15, 2022:** Spoke at UET Taxila on "An Introduction to Machine Learning for Engineers." ([Slides](https://docs.google.com/presentation/d/1HIWUd9OQaHk1D1ESe77uEcZ6ir7DKLdQIj3rKms_yPs/edit?usp=sharing))
