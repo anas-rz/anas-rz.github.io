@@ -1,0 +1,52 @@
+/*******************************************************************************
+ * Variables used throughout the theme.
+ * Re-configured for modern, clean, and elegant academic/systems portfolio.
+ ******************************************************************************/
+
+@use "sass:color";
+
+// Refined, high-contrast palette
+$red-color: #ef4444 !default;
+$red-color-dark: #dc2626 !default;
+$orange-color: #f97316 !default;
+$blue-color: #2563eb !default;
+$blue-color-dark: #1d4ed8 !default;
+$cyan-color: #0284c7 !default;
+$light-cyan-color: color.adjust($cyan-color, $lightness: 25%);
+$green-color: #10b981 !default;
+$green-color-lime: #84cc16 !default;
+$green-color-dark: #059669 !default;
+$green-color-light: #ecfdf5 !default;
+$green-color-bright: #10b981 !default;
+$purple-color: #2563eb !default; // Replace harsh legacy purple with authoritative Royal Cobalt Blue
+$light-purple-color: color.adjust($purple-color, $lightness: 25%);
+$pink-color: #ec4899 !default;
+$pink-color-light: #fdf2f8 !default;
+$yellow-color: #eab308 !default;
+
+$grey-color: #64748b !default;
+$grey-color-light: #f8fafc;
+$grey-color-dark: #0b0f19;
+$grey-900: #111827;
+
+$white-color: #ffffff !default;
+$black-color: #0f172a !default;
+
+// Theme colors
+$code-bg-color-light: #f8fafc;
+$code-bg-color-dark: #1e293b !default;
+
+// Font awesome location
+$fa-font-path: "../webfonts";
+
+// Back To Top button config
+$back-to-top-z-index: 10;
+$back-to-top-bottom: 30px;
+$back-to-top-right: 30px;
+$back-to-top-diameter: 40px;
+$back-to-top-height: $back-to-top-diameter;
+$back-to-top-width: $back-to-top-diameter;
+
+// Max width default
+$max-content-width: 930px !default;
+

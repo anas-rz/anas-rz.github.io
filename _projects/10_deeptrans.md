@@ -18,7 +18,7 @@ related_publications: true
 
 ## Overview
 
-High-dimensional server telemetry—tracking CPU load, memory paging, I/O rates, and network saturation—exhibits complex temporal correlations and sudden regime shifts. 
+High-dimensional server telemetry (tracking CPU load, memory paging, I/O rates, and network saturation) exhibits complex temporal correlations and sudden regime shifts. 
 
 **DeepTrAnS** is a pure MLP-Mixer-based unsupervised anomaly detection framework that deploys a two-phase reconstruction strategy to learn normal infrastructure operational baselines without needing labeled anomalous training samples.
 

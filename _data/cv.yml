@@ -69,14 +69,14 @@ cv:
         summary: "Awarded for RuleBoost: A Neuro-Symbolic Framework for Robust Deepfake Detection."
 
     Certifications & Personal Development:
-      - title: AWS Certified Solutions Architect – Associate (SAA-C03)
+      - title: AWS Certified Solutions Architect - Associate (SAA-C03)
         issuer: Amazon Web Services
         date: In Progress
         summary: "Completed AWS SAA-C03 Certification Essentials along with comprehensive compute, networking (VPC), IAM, storage, and serverless modules."
 
       - title: Multi-Cloud, Kubernetes & Infrastructure Training
         issuer: Pluralsight
-        date: 2024–2026
+        date: 2024-2026
         summary: "Completed 13 courses and 21 hands-on labs covering AWS (SageMaker, Lambda, S3, EC2), Kubernetes (kubeadm v1.27, kubectl, EKS, AKS, GKE), Terraform (IaC), and Rust fundamentals."
 
     Skills:

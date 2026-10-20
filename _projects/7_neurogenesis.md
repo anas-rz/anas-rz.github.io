@@ -17,7 +17,7 @@ related_publications: true
 
 ## Overview
 
-Traditional Neural Architecture Search (NAS) approaches rely heavily on brute-force random search, reinforcement learning, or genetic algorithms—requiring massive compute clusters and evaluating hundreds of degenerate candidates without semantic reasoning.
+Traditional Neural Architecture Search (NAS) approaches rely heavily on brute-force random search, reinforcement learning, or genetic algorithms, which require massive compute clusters and evaluate hundreds of degenerate candidates without semantic reasoning.
 
 **NeuroGenesis** introduces a reasoning-guided NAS paradigm that replaces blind trial-and-error with systematic hypothesis formation, design justification, and iterative architectural refinement using LLMs.
 
