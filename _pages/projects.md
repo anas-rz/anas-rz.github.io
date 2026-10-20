@@ -74,6 +74,17 @@ horizontal: false
 </div>
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap');
+
+  body,
+  h1, h2, h3, h4, h5, h6,
+  .category,
+  .card-title, .card-text,
+  .project-filter-pill,
+  button, a {
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
+  }
+
   .project-filter-pill {
     padding: 6px 14px;
     font-size: 0.85rem;
@@ -145,6 +156,17 @@ horizontal: false
 </script>
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap');
+
+  body,
+  h1, h2, h3, h4, h5, h6,
+  .category,
+  .card-title, .card-text,
+  .project-filter-pill,
+  button, a {
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
+  }
+
   .project-filter-pill {
     padding: 6px 14px;
     font-size: 0.85rem;
