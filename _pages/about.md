@@ -26,35 +26,43 @@ latest_posts:
   enabled: false
 ---
 
+<!-- Interactive Three.js Neural / Systems Network Canvas -->
+<div id="three-neural-container" class="position-relative w-100 rounded mb-4 overflow-hidden" style="height: 200px; border: 1px solid var(--global-divider-color); background: radial-gradient(circle at 50% 50%, var(--global-code-bg-color) 0%, transparent 80%); cursor: crosshair;">
+  <canvas id="three-neural-canvas" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: block;"></canvas>
+  <div style="position: absolute; bottom: 8px; right: 12px; font-size: 0.72rem; color: var(--global-text-color-light); opacity: 0.8; pointer-events: none; user-select: none;">
+    <i class="fa-solid fa-circle-nodes mr-1"></i> Interactive Neural Topology &bull; Move cursor &bull; Click to pulse
+  </div>
+</div>
+
 <div class="intro-lead mb-4">
   <p class="lead" style="font-size: 1.15rem; line-height: 1.7; font-weight: 400;">
     I am a <strong>Ph.D. Candidate</strong> in Computer Science & Informatics at <strong>Oakland University</strong>, specializing in <strong>Machine Learning Systems</strong>, <strong>Agentic AI</strong>, and <strong>Deep Learning Reliability</strong>. My research and engineering work bridges foundational deep learning with production-grade systems—spanning zero-dependency C++/ggml inference engines, multi-backend ML frameworks, autonomous multi-agent code generation, and robust multimodal vision models.
   </p>
 </div>
 
-<!-- Minimalist Impact Metrics -->
+<!-- Minimalist Interactive Impact Metrics -->
 <div class="row text-center mb-4 g-2" style="margin-top: 1.5rem; margin-bottom: 2rem;">
   <div class="col-6 col-md-3 mb-2">
-    <div class="p-3 rounded" style="border: 1px solid var(--global-divider-color); background: var(--global-code-bg-color);">
-      <div style="font-size: 1.6rem; font-weight: 700; color: var(--global-theme-color);">12</div>
+    <div class="p-3 rounded metric-card" style="border: 1px solid var(--global-divider-color); background: var(--global-code-bg-color);">
+      <div class="counter-value" data-target="12" style="font-size: 1.75rem; font-weight: 700; color: var(--global-theme-color);">0</div>
       <div class="text-muted small" style="font-size: 0.82rem; font-weight: 500;">Papers (7 First-Author)</div>
     </div>
   </div>
   <div class="col-6 col-md-3 mb-2">
-    <div class="p-3 rounded" style="border: 1px solid var(--global-divider-color); background: var(--global-code-bg-color);">
-      <div style="font-size: 1.6rem; font-weight: 700; color: var(--global-theme-color);">230+</div>
+    <div class="p-3 rounded metric-card" style="border: 1px solid var(--global-divider-color); background: var(--global-code-bg-color);">
+      <div class="counter-value" data-target="237" data-suffix="+" style="font-size: 1.75rem; font-weight: 700; color: var(--global-theme-color);">0+</div>
       <div class="text-muted small" style="font-size: 0.82rem; font-weight: 500;">Citations (h-index: 5)</div>
     </div>
   </div>
   <div class="col-6 col-md-3 mb-2">
-    <div class="p-3 rounded" style="border: 1px solid var(--global-divider-color); background: var(--global-code-bg-color);">
-      <div style="font-size: 1.6rem; font-weight: 700; color: var(--global-theme-color);">20+</div>
+    <div class="p-3 rounded metric-card" style="border: 1px solid var(--global-divider-color); background: var(--global-code-bg-color);">
+      <div class="counter-value" data-target="20" data-suffix="+" style="font-size: 1.75rem; font-weight: 700; color: var(--global-theme-color);">0+</div>
       <div class="text-muted small" style="font-size: 0.82rem; font-weight: 500;">Merged PRs to Keras 3</div>
     </div>
   </div>
   <div class="col-6 col-md-3 mb-2">
-    <div class="p-3 rounded" style="border: 1px solid var(--global-divider-color); background: var(--global-code-bg-color);">
-      <div style="font-size: 1.6rem; font-weight: 700; color: var(--global-theme-color);">106</div>
+    <div class="p-3 rounded metric-card" style="border: 1px solid var(--global-divider-color); background: var(--global-code-bg-color);">
+      <div class="counter-value" data-target="106" style="font-size: 1.75rem; font-weight: 700; color: var(--global-theme-color);">0</div>
       <div class="text-muted small" style="font-size: 0.82rem; font-weight: 500;">C++/ggml Vision Models</div>
     </div>
   </div>
@@ -73,8 +81,18 @@ latest_posts:
 
 ### Technical Expertise & Skills
 
+<!-- Interactive Skill Filter Bar -->
+<div class="skills-filter-bar mb-3" style="display: flex; flex-wrap: wrap; gap: 6px;">
+  <button type="button" class="skill-filter-btn active" data-category="all">All Skills</button>
+  <button type="button" class="skill-filter-btn" data-category="languages">Languages</button>
+  <button type="button" class="skill-filter-btn" data-category="deep-learning">Deep Learning</button>
+  <button type="button" class="skill-filter-btn" data-category="ml-systems">ML Systems</button>
+  <button type="button" class="skill-filter-btn" data-category="cloud">Cloud & Infra</button>
+  <button type="button" class="skill-filter-btn" data-category="fullstack">Full-Stack</button>
+</div>
+
 <div class="skills-section mt-3 mb-4">
-  <div class="mb-3">
+  <div class="skill-group mb-3" data-category="languages">
     <div class="small text-uppercase font-weight-bold mb-1" style="color: var(--global-theme-color); letter-spacing: 0.5px;">
       <i class="fa-solid fa-code mr-1"></i> Programming Languages
     </div>
@@ -92,7 +110,7 @@ latest_posts:
     </div>
   </div>
 
-  <div class="mb-3">
+  <div class="skill-group mb-3" data-category="deep-learning">
     <div class="small text-uppercase font-weight-bold mb-1" style="color: var(--global-theme-color); letter-spacing: 0.5px;">
       <i class="fa-solid fa-brain mr-1"></i> Deep Learning & Frameworks
     </div>
@@ -110,7 +128,7 @@ latest_posts:
     </div>
   </div>
 
-  <div class="mb-3">
+  <div class="skill-group mb-3" data-category="ml-systems">
     <div class="small text-uppercase font-weight-bold mb-1" style="color: var(--global-theme-color); letter-spacing: 0.5px;">
       <i class="fa-solid fa-microchip mr-1"></i> ML Systems & Inference Engineering
     </div>
@@ -125,7 +143,7 @@ latest_posts:
     </div>
   </div>
 
-  <div class="mb-3">
+  <div class="skill-group mb-3" data-category="cloud">
     <div class="small text-uppercase font-weight-bold mb-1" style="color: var(--global-theme-color); letter-spacing: 0.5px;">
       <i class="fa-solid fa-cloud mr-1"></i> Cloud, MLOps & Infrastructure
     </div>
@@ -141,7 +159,7 @@ latest_posts:
     </div>
   </div>
 
-  <div>
+  <div class="skill-group mb-3" data-category="fullstack">
     <div class="small text-uppercase font-weight-bold mb-1" style="color: var(--global-theme-color); letter-spacing: 0.5px;">
       <i class="fa-solid fa-layer-group mr-1"></i> Full-Stack & Platforms
     </div>
@@ -158,42 +176,13 @@ latest_posts:
   </div>
 </div>
 
-<style>
-  .skill-tag {
-    display: inline-block;
-    padding: 3px 11px;
-    margin: 2px 2px;
-    font-size: 0.84rem;
-    font-weight: 500;
-    border-radius: 9999px;
-    border: 1px solid var(--global-divider-color);
-    background: var(--global-code-bg-color);
-    color: var(--global-text-color);
-    transition: all 0.15s ease-in-out;
-  }
-  .skill-tag:hover {
-    border-color: var(--global-theme-color);
-    color: var(--global-theme-color);
-  }
-  .project-tag {
-    display: inline-block;
-    padding: 2px 8px;
-    font-size: 0.72rem;
-    font-weight: 600;
-    border-radius: 4px;
-    border: 1px solid var(--global-divider-color);
-    background: var(--global-code-bg-color);
-    color: var(--global-theme-color);
-  }
-</style>
-
 ---
 
 ### Featured Systems & Research
 
 <div class="row g-3 mb-4">
   <div class="col-md-6 mb-3">
-    <div class="p-3 rounded h-100" style="border: 1px solid var(--global-divider-color); background: var(--global-card-bg-color);">
+    <div class="p-3 rounded h-100 system-feature-card" style="border: 1px solid var(--global-divider-color); background: var(--global-card-bg-color);">
       <div class="d-flex justify-content-between align-items-baseline mb-1">
         <h5 class="font-weight-bold mb-0">timm.cpp</h5>
         <span class="project-tag">C++17 / ggml</span>
@@ -204,7 +193,7 @@ latest_posts:
   </div>
 
   <div class="col-md-6 mb-3">
-    <div class="p-3 rounded h-100" style="border: 1px solid var(--global-divider-color); background: var(--global-card-bg-color);">
+    <div class="p-3 rounded h-100 system-feature-card" style="border: 1px solid var(--global-divider-color); background: var(--global-card-bg-color);">
       <div class="d-flex justify-content-between align-items-baseline mb-1">
         <h5 class="font-weight-bold mb-0">K3Node</h5>
         <span class="project-tag">Keras 3 / PyG</span>
@@ -215,7 +204,7 @@ latest_posts:
   </div>
 
   <div class="col-md-6 mb-3">
-    <div class="p-3 rounded h-100" style="border: 1px solid var(--global-divider-color); background: var(--global-card-bg-color);">
+    <div class="p-3 rounded h-100 system-feature-card" style="border: 1px solid var(--global-divider-color); background: var(--global-card-bg-color);">
       <div class="d-flex justify-content-between align-items-baseline mb-1">
         <h5 class="font-weight-bold mb-0">AutoMAS</h5>
         <span class="project-tag">IEEE QRS 2026</span>
@@ -226,7 +215,7 @@ latest_posts:
   </div>
 
   <div class="col-md-6 mb-3">
-    <div class="p-3 rounded h-100" style="border: 1px solid var(--global-divider-color); background: var(--global-card-bg-color);">
+    <div class="p-3 rounded h-100 system-feature-card" style="border: 1px solid var(--global-divider-color); background: var(--global-card-bg-color);">
       <div class="d-flex justify-content-between align-items-baseline mb-1">
         <h5 class="font-weight-bold mb-0">RuleBoost</h5>
         <span class="project-tag">IJCB '24 Best Poster</span>
@@ -246,3 +235,698 @@ latest_posts:
 * **2025:** Published *Graph Neural Network for Fault Localization in Sequence-Based Models* (**LocatorGraph**) in **Empirical Software Engineering (EMSE)**.
 * **2025:** Published *DeepTrAnS: Mixer-based Unsupervised Time Series Anomaly Detection for Servers* in **IEEE ICSC 2025**.
 * **2024:** Received the **Best Poster Award** at **IEEE IJCB 2024** for *RuleBoost: A Neuro-Symbolic Framework for Robust Deepfake Detection*.
+
+<style>
+  .metric-card {
+    transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease, border-color 0.25s ease;
+  }
+  .metric-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--global-theme-color) !important;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  }
+  .system-feature-card {
+    transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease, border-color 0.25s ease;
+  }
+  .system-feature-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--global-theme-color) !important;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  }
+  .skill-filter-btn {
+    padding: 4px 12px;
+    font-size: 0.78rem;
+    font-weight: 500;
+    border-radius: 9999px;
+    border: 1px solid var(--global-divider-color);
+    background: var(--global-code-bg-color);
+    color: var(--global-text-color);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    outline: none;
+  }
+  .skill-filter-btn:hover {
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color);
+  }
+  .skill-filter-btn.active {
+    background: var(--global-theme-color);
+    color: #ffffff !important;
+    border-color: var(--global-theme-color);
+  }
+  .skill-tag {
+    display: inline-block;
+    padding: 3px 11px;
+    margin: 2px 2px;
+    font-size: 0.84rem;
+    font-weight: 500;
+    border-radius: 9999px;
+    border: 1px solid var(--global-divider-color);
+    background: var(--global-code-bg-color);
+    color: var(--global-text-color);
+    transition: all 0.15s ease-in-out;
+  }
+  .skill-tag:hover {
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color);
+    transform: translateY(-1px);
+  }
+  .project-tag {
+    display: inline-block;
+    padding: 2px 8px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    border-radius: 4px;
+    border: 1px solid var(--global-divider-color);
+    background: var(--global-code-bg-color);
+    color: var(--global-theme-color);
+  }
+  .skill-group {
+    transition: opacity 0.25s ease, transform 0.25s ease;
+  }
+</style>
+
+<!-- Three.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+<script>
+  (function () {
+    // 1. THREE.JS TOPOLOGY VISUALIZER
+    function initThreeNeuralCanvas() {
+      const container = document.getElementById('three-neural-container');
+      const canvas = document.getElementById('three-neural-canvas');
+      if (!container || !canvas || typeof THREE === 'undefined') return;
+
+      let width = container.clientWidth;
+      let height = container.clientHeight || 200;
+      let isVisible = true;
+      let mouseX = 0, mouseY = 0, targetX = 0, targetY = 0;
+      let pulseWave = 0, isPulsing = false;
+      const nodeCount = 52;
+      const maxDistance = 65;
+
+      function getColors() {
+        const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+        return {
+          isDark: isDark,
+          nodeColor: isDark ? 0x00e5ff : 0x4f46e5,
+          lineColor: isDark ? 0x22d3ee : 0x6366f1,
+          lineOpacity: isDark ? 0.35 : 0.22,
+          nodeSize: isDark ? 3.8 : 3.2
+        };
+      }
+
+      let colors = getColors();
+
+      const scene = new THREE.Scene();
+      const camera = new THREE.PerspectiveCamera(50, width / height, 1, 1000);
+      camera.position.z = 135;
+
+      let renderer;
+      try {
+        renderer = new THREE.WebGLRenderer({ canvas: canvas, alpha: true, antialias: true, powerPreference: 'high-performance' });
+        renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+        renderer.setSize(width, height);
+      } catch (e) {
+        console.warn('WebGL init error:', e);
+        return;
+      }
+
+      const particlePositions = new Float32Array(nodeCount * 3);
+      const particleVelocities = [];
+
+      for (let i = 0; i < nodeCount; i++) {
+        const x = (Math.random() - 0.5) * 160;
+        const y = (Math.random() - 0.5) * 85;
+        const z = (Math.random() - 0.5) * 60;
+        particlePositions[i * 3] = x;
+        particlePositions[i * 3 + 1] = y;
+        particlePositions[i * 3 + 2] = z;
+        particleVelocities.push({
+          x: (Math.random() - 0.5) * 0.22,
+          y: (Math.random() - 0.5) * 0.22,
+          z: (Math.random() - 0.5) * 0.15
+        });
+      }
+
+      const particlesGeo = new THREE.BufferGeometry();
+      particlesGeo.setAttribute('position', new THREE.BufferAttribute(particlePositions, 3));
+      const pMaterial = new THREE.PointsMaterial({
+        color: colors.nodeColor,
+        size: colors.nodeSize,
+        transparent: true,
+        opacity: 0.9,
+        blending: THREE.AdditiveBlending
+      });
+      const nodesMesh = new THREE.Points(particlesGeo, pMaterial);
+      scene.add(nodesMesh);
+
+      const segments = nodeCount * nodeCount;
+      const linePositions = new Float32Array(segments * 3);
+      const lineColors = new Float32Array(segments * 3);
+      const linesGeo = new THREE.BufferGeometry();
+      linesGeo.setAttribute('position', new THREE.BufferAttribute(linePositions, 3).setUsage(THREE.DynamicDrawUsage));
+      linesGeo.setAttribute('color', new THREE.BufferAttribute(lineColors, 3).setUsage(THREE.DynamicDrawUsage));
+
+      const lineMaterial = new THREE.LineSegments(
+        linesGeo,
+        new THREE.LineBasicMaterial({
+          vertexColors: true,
+          transparent: true,
+          opacity: colors.lineOpacity,
+          blending: THREE.AdditiveBlending
+        })
+      );
+      scene.add(lineMaterial);
+
+      container.addEventListener('mousemove', (e) => {
+        const rect = container.getBoundingClientRect();
+        targetX = (((e.clientX - rect.left) / width) * 2 - 1) * 20;
+        targetY = -(((e.clientY - rect.top) / height) * 2 - 1) * 15;
+      }, { passive: true });
+
+      container.addEventListener('mouseleave', () => { targetX = 0; targetY = 0; });
+      container.addEventListener('click', () => { pulseWave = 1.0; isPulsing = true; });
+
+      window.addEventListener('resize', () => {
+        if (!container) return;
+        width = container.clientWidth;
+        height = container.clientHeight || 200;
+        camera.aspect = width / height;
+        camera.updateProjectionMatrix();
+        renderer.setSize(width, height);
+      });
+
+      const themeObserver = new MutationObserver(() => {
+        colors = getColors();
+        pMaterial.color.setHex(colors.nodeColor);
+        pMaterial.size = colors.nodeSize;
+        lineMaterial.material.opacity = colors.lineOpacity;
+      });
+      themeObserver.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+
+      const visObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => { isVisible = entry.isIntersecting; });
+      }, { threshold: 0.1 });
+      visObserver.observe(container);
+
+      function animate() {
+        requestAnimationFrame(animate);
+        if (!isVisible) return;
+
+        mouseX += (targetX - mouseX) * 0.05;
+        mouseY += (targetY - mouseY) * 0.05;
+        camera.position.x = mouseX;
+        camera.position.y = mouseY;
+        camera.lookAt(scene.position);
+
+        if (isPulsing) {
+          pulseWave *= 0.94;
+          if (pulseWave < 0.01) { pulseWave = 0; isPulsing = false; }
+        }
+
+        let lineIdx = 0;
+        const baseR = ((colors.lineColor >> 16) & 255) / 255;
+        const baseG = ((colors.lineColor >> 8) & 255) / 255;
+        const baseB = (colors.lineColor & 255) / 255;
+
+        for (let i = 0; i < nodeCount; i++) {
+          const i3 = i * 3;
+          const vel = particleVelocities[i];
+          particlePositions[i3] += vel.x;
+          particlePositions[i3 + 1] += vel.y;
+          particlePositions[i3 + 2] += vel.z;
+
+          if (particlePositions[i3] < -85 || particlePositions[i3] > 85) vel.x = -vel.x;
+          if (particlePositions[i3 + 1] < -42 || particlePositions[i3 + 1] > 42) vel.y = -vel.y;
+          if (particlePositions[i3 + 2] < -35 || particlePositions[i3 + 2] > 35) vel.z = -vel.z;
+
+          if (isPulsing) {
+            particlePositions[i3] += (particlePositions[i3] > 0 ? 1 : -1) * pulseWave * 0.2;
+            particlePositions[i3 + 1] += (particlePositions[i3 + 1] > 0 ? 1 : -1) * pulseWave * 0.2;
+          }
+
+          for (let j = i + 1; j < nodeCount; j++) {
+            const j3 = j * 3;
+            const dx = particlePositions[i3] - particlePositions[j3];
+            const dy = particlePositions[i3 + 1] - particlePositions[j3 + 1];
+            const dz = particlePositions[i3 + 2] - particlePositions[j3 + 2];
+            const dist = Math.sqrt(dx * dx + dy * dy + dz * dz);
+
+            if (dist < maxDistance) {
+              const alpha = 1.0 - dist / maxDistance;
+              linePositions[lineIdx * 3] = particlePositions[i3];
+              linePositions[lineIdx * 3 + 1] = particlePositions[i3 + 1];
+              linePositions[lineIdx * 3 + 2] = particlePositions[i3 + 2];
+              lineColors[lineIdx * 3] = baseR;
+              lineColors[lineIdx * 3 + 1] = baseG;
+              lineColors[lineIdx * 3 + 2] = baseB;
+              lineIdx++;
+
+              linePositions[lineIdx * 3] = particlePositions[j3];
+              linePositions[lineIdx * 3 + 1] = particlePositions[j3 + 1];
+              linePositions[lineIdx * 3 + 2] = particlePositions[j3 + 2];
+              lineColors[lineIdx * 3] = baseR * alpha;
+              lineColors[lineIdx * 3 + 1] = baseG * alpha;
+              lineColors[lineIdx * 3 + 2] = baseB * alpha;
+              lineIdx++;
+            }
+          }
+        }
+
+        nodesMesh.geometry.attributes.position.needsUpdate = true;
+        linesGeo.setDrawRange(0, lineIdx);
+        linesGeo.attributes.position.needsUpdate = true;
+        linesGeo.attributes.color.needsUpdate = true;
+
+        scene.rotation.y += 0.0012;
+        renderer.render(scene, camera);
+      }
+      animate();
+    }
+
+    function checkThree() {
+      if (typeof THREE !== 'undefined') {
+        initThreeNeuralCanvas();
+      } else {
+        setTimeout(checkThree, 60);
+      }
+    }
+
+    // 2. ANIMATED NUMERIC COUNTERS
+    function initCounters() {
+      const counters = document.querySelectorAll('.counter-value');
+      if (!counters.length) return;
+
+      const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) return;
+          const el = entry.target;
+          const target = parseInt(el.getAttribute('data-target'), 10);
+          const suffix = el.getAttribute('data-suffix') || '';
+          const duration = 1300;
+          const startTime = performance.now();
+
+          function updateCounter(now) {
+            const progress = Math.min((now - startTime) / duration, 1.0);
+            const easeOut = 1 - Math.pow(1 - progress, 3);
+            el.textContent = Math.floor(easeOut * target) + suffix;
+            if (progress < 1.0) {
+              requestAnimationFrame(updateCounter);
+            } else {
+              el.textContent = target + suffix;
+            }
+          }
+          requestAnimationFrame(updateCounter);
+          obs.unobserve(el);
+        });
+      }, { threshold: 0.2 });
+
+      counters.forEach(c => observer.observe(c));
+    }
+
+    // 3. SKILL FILTER
+    function initSkillFilter() {
+      const buttons = document.querySelectorAll('.skill-filter-btn');
+      const groups = document.querySelectorAll('.skill-group');
+      if (!buttons.length || !groups.length) return;
+
+      buttons.forEach(btn => {
+        btn.addEventListener('click', function () {
+          const category = this.getAttribute('data-category');
+          buttons.forEach(b => b.classList.remove('active'));
+          this.classList.add('active');
+
+          groups.forEach(g => {
+            if (category === 'all' || g.getAttribute('data-category') === category) {
+              g.style.display = 'block';
+              g.style.opacity = '1';
+            } else {
+              g.style.display = 'none';
+            }
+          });
+        });
+      });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', () => {
+        checkThree();
+        initCounters();
+        initSkillFilter();
+      });
+    } else {
+      checkThree();
+      initCounters();
+      initSkillFilter();
+    }
+  })();
+</script>
+
+<style>
+  .metric-card {
+    transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease, border-color 0.25s ease;
+  }
+  .metric-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--global-theme-color) !important;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  }
+  .system-feature-card {
+    transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease, border-color 0.25s ease;
+  }
+  .system-feature-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--global-theme-color) !important;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  }
+  .skill-filter-btn {
+    padding: 4px 12px;
+    font-size: 0.78rem;
+    font-weight: 500;
+    border-radius: 9999px;
+    border: 1px solid var(--global-divider-color);
+    background: var(--global-code-bg-color);
+    color: var(--global-text-color);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    outline: none;
+  }
+  .skill-filter-btn:hover {
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color);
+  }
+  .skill-filter-btn.active {
+    background: var(--global-theme-color);
+    color: #ffffff !important;
+    border-color: var(--global-theme-color);
+  }
+  .skill-tag {
+    display: inline-block;
+    padding: 3px 11px;
+    margin: 2px 2px;
+    font-size: 0.84rem;
+    font-weight: 500;
+    border-radius: 9999px;
+    border: 1px solid var(--global-divider-color);
+    background: var(--global-code-bg-color);
+    color: var(--global-text-color);
+    transition: all 0.15s ease-in-out;
+  }
+  .skill-tag:hover {
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color);
+    transform: translateY(-1px);
+  }
+  .project-tag {
+    display: inline-block;
+    padding: 2px 8px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    border-radius: 4px;
+    border: 1px solid var(--global-divider-color);
+    background: var(--global-code-bg-color);
+    color: var(--global-theme-color);
+  }
+  .skill-group {
+    transition: opacity 0.25s ease, transform 0.25s ease;
+  }
+</style>
+
+<!-- Three.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+<script>
+  (function () {
+    // 1. THREE.JS TOPOLOGY VISUALIZER
+    function initThreeNeuralCanvas() {
+      const container = document.getElementById('three-neural-container');
+      const canvas = document.getElementById('three-neural-canvas');
+      if (!container || !canvas || typeof THREE === 'undefined') return;
+
+      let width = container.clientWidth;
+      let height = container.clientHeight || 200;
+      let isVisible = true;
+      let mouseX = 0, mouseY = 0, targetX = 0, targetY = 0;
+      let pulseWave = 0, isPulsing = false;
+      const nodeCount = 52;
+      const maxDistance = 65;
+
+      function getColors() {
+        const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+        return {
+          isDark: isDark,
+          nodeColor: isDark ? 0x00e5ff : 0x4f46e5,
+          lineColor: isDark ? 0x22d3ee : 0x6366f1,
+          lineOpacity: isDark ? 0.35 : 0.22,
+          nodeSize: isDark ? 3.8 : 3.2
+        };
+      }
+
+      let colors = getColors();
+
+      const scene = new THREE.Scene();
+      const camera = new THREE.PerspectiveCamera(50, width / height, 1, 1000);
+      camera.position.z = 135;
+
+      let renderer;
+      try {
+        renderer = new THREE.WebGLRenderer({ canvas: canvas, alpha: true, antialias: true, powerPreference: 'high-performance' });
+        renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+        renderer.setSize(width, height);
+      } catch (e) {
+        console.warn('WebGL init error:', e);
+        return;
+      }
+
+      const particlePositions = new Float32Array(nodeCount * 3);
+      const particleVelocities = [];
+
+      for (let i = 0; i < nodeCount; i++) {
+        const x = (Math.random() - 0.5) * 160;
+        const y = (Math.random() - 0.5) * 85;
+        const z = (Math.random() - 0.5) * 60;
+        particlePositions[i * 3] = x;
+        particlePositions[i * 3 + 1] = y;
+        particlePositions[i * 3 + 2] = z;
+        particleVelocities.push({
+          x: (Math.random() - 0.5) * 0.22,
+          y: (Math.random() - 0.5) * 0.22,
+          z: (Math.random() - 0.5) * 0.15
+        });
+      }
+
+      const particlesGeo = new THREE.BufferGeometry();
+      particlesGeo.setAttribute('position', new THREE.BufferAttribute(particlePositions, 3));
+      const pMaterial = new THREE.PointsMaterial({
+        color: colors.nodeColor,
+        size: colors.nodeSize,
+        transparent: true,
+        opacity: 0.9,
+        blending: THREE.AdditiveBlending
+      });
+      const nodesMesh = new THREE.Points(particlesGeo, pMaterial);
+      scene.add(nodesMesh);
+
+      const segments = nodeCount * nodeCount;
+      const linePositions = new Float32Array(segments * 3);
+      const lineColors = new Float32Array(segments * 3);
+      const linesGeo = new THREE.BufferGeometry();
+      linesGeo.setAttribute('position', new THREE.BufferAttribute(linePositions, 3).setUsage(THREE.DynamicDrawUsage));
+      linesGeo.setAttribute('color', new THREE.BufferAttribute(lineColors, 3).setUsage(THREE.DynamicDrawUsage));
+
+      const lineMaterial = new THREE.LineSegments(
+        linesGeo,
+        new THREE.LineBasicMaterial({
+          vertexColors: true,
+          transparent: true,
+          opacity: colors.lineOpacity,
+          blending: THREE.AdditiveBlending
+        })
+      );
+      scene.add(lineMaterial);
+
+      container.addEventListener('mousemove', (e) => {
+        const rect = container.getBoundingClientRect();
+        targetX = (((e.clientX - rect.left) / width) * 2 - 1) * 20;
+        targetY = -(((e.clientY - rect.top) / height) * 2 - 1) * 15;
+      }, { passive: true });
+
+      container.addEventListener('mouseleave', () => { targetX = 0; targetY = 0; });
+      container.addEventListener('click', () => { pulseWave = 1.0; isPulsing = true; });
+
+      window.addEventListener('resize', () => {
+        if (!container) return;
+        width = container.clientWidth;
+        height = container.clientHeight || 200;
+        camera.aspect = width / height;
+        camera.updateProjectionMatrix();
+        renderer.setSize(width, height);
+      });
+
+      const themeObserver = new MutationObserver(() => {
+        colors = getColors();
+        pMaterial.color.setHex(colors.nodeColor);
+        pMaterial.size = colors.nodeSize;
+        lineMaterial.material.opacity = colors.lineOpacity;
+      });
+      themeObserver.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+
+      const visObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => { isVisible = entry.isIntersecting; });
+      }, { threshold: 0.1 });
+      visObserver.observe(container);
+
+      function animate() {
+        requestAnimationFrame(animate);
+        if (!isVisible) return;
+
+        mouseX += (targetX - mouseX) * 0.05;
+        mouseY += (targetY - mouseY) * 0.05;
+        camera.position.x = mouseX;
+        camera.position.y = mouseY;
+        camera.lookAt(scene.position);
+
+        if (isPulsing) {
+          pulseWave *= 0.94;
+          if (pulseWave < 0.01) { pulseWave = 0; isPulsing = false; }
+        }
+
+        let lineIdx = 0;
+        const baseR = ((colors.lineColor >> 16) & 255) / 255;
+        const baseG = ((colors.lineColor >> 8) & 255) / 255;
+        const baseB = (colors.lineColor & 255) / 255;
+
+        for (let i = 0; i < nodeCount; i++) {
+          const i3 = i * 3;
+          const vel = particleVelocities[i];
+          particlePositions[i3] += vel.x;
+          particlePositions[i3 + 1] += vel.y;
+          particlePositions[i3 + 2] += vel.z;
+
+          if (particlePositions[i3] < -85 || particlePositions[i3] > 85) vel.x = -vel.x;
+          if (particlePositions[i3 + 1] < -42 || particlePositions[i3 + 1] > 42) vel.y = -vel.y;
+          if (particlePositions[i3 + 2] < -35 || particlePositions[i3 + 2] > 35) vel.z = -vel.z;
+
+          if (isPulsing) {
+            particlePositions[i3] += (particlePositions[i3] > 0 ? 1 : -1) * pulseWave * 0.2;
+            particlePositions[i3 + 1] += (particlePositions[i3 + 1] > 0 ? 1 : -1) * pulseWave * 0.2;
+          }
+
+          for (let j = i + 1; j < nodeCount; j++) {
+            const j3 = j * 3;
+            const dx = particlePositions[i3] - particlePositions[j3];
+            const dy = particlePositions[i3 + 1] - particlePositions[j3 + 1];
+            const dz = particlePositions[i3 + 2] - particlePositions[j3 + 2];
+            const dist = Math.sqrt(dx * dx + dy * dy + dz * dz);
+
+            if (dist < maxDistance) {
+              const alpha = 1.0 - dist / maxDistance;
+              linePositions[lineIdx * 3] = particlePositions[i3];
+              linePositions[lineIdx * 3 + 1] = particlePositions[i3 + 1];
+              linePositions[lineIdx * 3 + 2] = particlePositions[i3 + 2];
+              lineColors[lineIdx * 3] = baseR;
+              lineColors[lineIdx * 3 + 1] = baseG;
+              lineColors[lineIdx * 3 + 2] = baseB;
+              lineIdx++;
+
+              linePositions[lineIdx * 3] = particlePositions[j3];
+              linePositions[lineIdx * 3 + 1] = particlePositions[j3 + 1];
+              linePositions[lineIdx * 3 + 2] = particlePositions[j3 + 2];
+              lineColors[lineIdx * 3] = baseR * alpha;
+              lineColors[lineIdx * 3 + 1] = baseG * alpha;
+              lineColors[lineIdx * 3 + 2] = baseB * alpha;
+              lineIdx++;
+            }
+          }
+        }
+
+        nodesMesh.geometry.attributes.position.needsUpdate = true;
+        linesGeo.setDrawRange(0, lineIdx);
+        linesGeo.attributes.position.needsUpdate = true;
+        linesGeo.attributes.color.needsUpdate = true;
+
+        scene.rotation.y += 0.0012;
+        renderer.render(scene, camera);
+      }
+      animate();
+    }
+
+    function checkThree() {
+      if (typeof THREE !== 'undefined') {
+        initThreeNeuralCanvas();
+      } else {
+        setTimeout(checkThree, 60);
+      }
+    }
+
+    // 2. ANIMATED NUMERIC COUNTERS
+    function initCounters() {
+      const counters = document.querySelectorAll('.counter-value');
+      if (!counters.length) return;
+
+      const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) return;
+          const el = entry.target;
+          const target = parseInt(el.getAttribute('data-target'), 10);
+          const suffix = el.getAttribute('data-suffix') || '';
+          const duration = 1300;
+          const startTime = performance.now();
+
+          function updateCounter(now) {
+            const progress = Math.min((now - startTime) / duration, 1.0);
+            const easeOut = 1 - Math.pow(1 - progress, 3);
+            el.textContent = Math.floor(easeOut * target) + suffix;
+            if (progress < 1.0) {
+              requestAnimationFrame(updateCounter);
+            } else {
+              el.textContent = target + suffix;
+            }
+          }
+          requestAnimationFrame(updateCounter);
+          obs.unobserve(el);
+        });
+      }, { threshold: 0.2 });
+
+      counters.forEach(c => observer.observe(c));
+    }
+
+    // 3. SKILL FILTER
+    function initSkillFilter() {
+      const buttons = document.querySelectorAll('.skill-filter-btn');
+      const groups = document.querySelectorAll('.skill-group');
+      if (!buttons.length || !groups.length) return;
+
+      buttons.forEach(btn => {
+        btn.addEventListener('click', function () {
+          const category = this.getAttribute('data-category');
+          buttons.forEach(b => b.classList.remove('active'));
+          this.classList.add('active');
+
+          groups.forEach(g => {
+            if (category === 'all' || g.getAttribute('data-category') === category) {
+              g.style.display = 'block';
+              g.style.opacity = '1';
+            } else {
+              g.style.display = 'none';
+            }
+          });
+        });
+      });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', () => {
+        checkThree();
+        initCounters();
+        initSkillFilter();
+      });
+    } else {
+      checkThree();
+      initCounters();
+      initSkillFilter();
+    }
+  })();
+</script>
+
