@@ -1,19 +1,10 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> FocalNet – Keras 3 Implementation | Muhammad Anas Raza </title> <meta name="author" content="Muhammad Anas Raza"> <meta name="description" content="Keras 3 translation of FocalNet (Focal Modulation Network), an attention-free vision architecture from Microsoft."> <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> LocatorGraph: GNN Fault Localization for DL Programs | Muhammad Anas Raza </title> <meta name="author" content="Muhammad Anas Raza"> <meta name="description" content="Novel GNN framework converting sequence model code into TraceGraphs to localize structural and runtime deep learning bugs (Empirical Software Engineering 2025)."> <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
   :root {
     --max-content-width: 930px;
   }
-</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=f0b101217084a90093badfe99ff9a7d1"> <link rel="canonical" href="anas-rz.github.io/projects/7_project/"> <script src="/assets/js/theme.js?v=7af685e2ba20b37fef545c97b8064050"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=f0b101217084a90093badfe99ff9a7d1"> <link rel="canonical" href="anas-rz.github.io/projects/8_locatorgraph/"> <script src="/assets/js/theme.js?v=7af685e2ba20b37fef545c97b8064050"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
     initTheme();
-  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Muhammad Anas</span> Raza </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item active"> <a class="nav-link" href="/projects/">projects <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/repositories/">repositories </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">FocalNet – Keras 3 Implementation</h1> <p class="post-description">Keras 3 translation of FocalNet (Focal Modulation Network), an attention-free vision architecture from Microsoft.</p> </header> <article> <h1 id="focalnet-keras-3-translation">FocalNet: Keras 3 Translation</h1> <p>This project is a <strong>Keras 3 implementation of FocalNet (Focal Modulation Network)</strong>, an attention-free vision architecture originally released by Microsoft in 2022. FocalNet replaces traditional self-attention mechanisms with focal modulation and achieves competitive or superior performance on multiple vision benchmarks.</p> <hr> <h2 id="overview">Overview</h2> <p>FocalNet introduces a new paradigm in vision modeling by removing explicit self-attention and instead using <strong>focal modulation layers</strong> to capture both local and global context efficiently.</p> <p>This implementation brings FocalNet into the <strong>Keras 3 multi-backend ecosystem</strong>, making it compatible with TensorFlow, JAX, and PyTorch.</p> <hr> <h2 id="key-features">Key Features</h2> <ul> <li>Keras 3 multi-backend implementation</li> <li>Attention-free architecture (Focal Modulation)</li> <li>Scalable model variants (Tiny → Huge)</li> <li>Efficient vision backbone design</li> <li>Easy integration into Keras workflows</li> <li>Colab-ready example usage</li> </ul> <hr> <h2 id="installation">Installation</h2> <p>Clone the repository:</p> <p>```bash id=”focal_install” git clone https://github.com/anas-rz/focalnet-keras-3.git cd focalnet-keras-3</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
----
-
-## Usage
-
-```python id="focal_usage"
-from focalnet_keras_core import *
-
-model = focalnet_huge_fl3()
-</code></pre></div></div> <hr> <h2 id="model-variants">Model Variants</h2> <p>The implementation supports multiple scalable configurations:</p> <h3 id="tiny--small--base">Tiny / Small / Base</h3> <ul> <li>focalnet_tiny_srf</li> <li>focalnet_small_srf</li> <li>focalnet_base_srf</li> <li>focalnet_tiny_lrf</li> <li>focalnet_small_lrf</li> <li>focalnet_base_lrf</li> </ul> <h3 id="isotropic-variants">Isotropic Variants</h3> <ul> <li>focalnet_tiny_iso_16</li> <li>focalnet_small_iso_16</li> <li>focalnet_base_iso_16</li> </ul> <h3 id="large--xlarge--huge">Large / XLarge / Huge</h3> <ul> <li>focalnet_large_fl3</li> <li>focalnet_large_fl4</li> <li>focalnet_xlarge_fl3</li> <li>focalnet_xlarge_fl4</li> <li>focalnet_huge_fl3</li> <li>focalnet_huge_fl4</li> </ul> <hr> <h2 id="architecture-insight">Architecture Insight</h2> <p>FocalNet replaces self-attention with:</p> <ul> <li>Focal Modulation Layers</li> <li>Hierarchical feature aggregation</li> <li>Efficient spatial context modeling</li> </ul> <p>This design reduces computational complexity while maintaining strong representation power for vision tasks.</p> <hr> <h2 id="colab-demo">Colab Demo</h2> <p>Try the model interactively:</p> <p><a target="_blank" href="https://colab.research.google.com/github/anas-rz/focalnet-keras-core/blob/main/colab_usage.ipynb" rel="external nofollow noopener"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"> </a></p> <hr> <h2 id="applications">Applications</h2> <ul> <li>Image classification</li> <li>Vision representation learning</li> <li>Efficient transformer alternatives</li> <li>Research in attention-free architectures</li> <li>Multi-backend deep learning experiments</li> </ul> <hr> <h2 id="technologies">Technologies</h2> <ul> <li>Python</li> <li>Keras 3</li> <li>TensorFlow</li> <li>JAX</li> <li>PyTorch</li> <li>Computer Vision</li> <li>Deep Learning</li> </ul> <hr> <h2 id="related-work">Related Work</h2> <ul> <li>Original FocalNet by Microsoft Research</li> <li>Paper: https://arxiv.org/abs/2203.11926</li> <li>Reference implementation: https://github.com/microsoft/FocalNet/</li> </ul> <hr> <h2 id="repository">Repository</h2> <p>https://github.com/anas-rz/focalnet-keras-3</p> <hr> <h2 id="summary">Summary</h2> <p>This project provides a clean and modular Keras 3 implementation of FocalNet, enabling researchers and developers to explore attention-free vision architectures in a modern multi-backend deep learning ecosystem.</p> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Muhammad Anas Raza. </div> </footer> <script>
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Muhammad Anas</span> Raza </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item active"> <a class="nav-link" href="/projects/">projects <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/repositories/">repositories </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">LocatorGraph: GNN Fault Localization for DL Programs</h1> <p class="post-description">Novel GNN framework converting sequence model code into TraceGraphs to localize structural and runtime deep learning bugs (Empirical Software Engineering 2025).</p> </header> <article> <h1 id="locatorgraph-gnn-fault-localization-for-deep-learning-programs">LocatorGraph: GNN Fault Localization for Deep Learning Programs</h1> <p><strong>Stack:</strong> Python, Graph Neural Networks, PyTorch Geometric, AST Analysis<br> <strong>Journal:</strong> Empirical Software Engineering (EMSE), 30(5):119, 2025<br> <strong>DOI:</strong> <a href="https://doi.org/10.1007/s10664-025-10666-6" rel="external nofollow noopener" target="_blank">10.1007/s10664-025-10666-6</a><br> <strong>Authors:</strong> Muhammad Anas Raza, Mohammad Wardat</p> <hr> <h2 id="overview">Overview</h2> <p>Localizing bugs in deep learning code is notoriously difficult due to complex dataflow dependencies, dynamic tensor shapes, and silent runtime dimension mismatches.</p> <p><strong>LocatorGraph (LG)</strong> introduces a Graph Neural Network-based fault localization framework that parses sequence-based model code (RNNs, LSTMs, GRUs, Transformers, gMLP) into structured <strong>TraceGraphs</strong> to identify and pinpoint root causes of failure.</p> <hr> <h2 id="empirical-evaluation-152-sequence-models">Empirical Evaluation (152 Sequence Models)</h2> <ul> <li> <strong>Bug Identification:</strong> Achieved <strong>89.46% AUC</strong> and <strong>81.34% F1-score</strong> in classifying whether a sequence model implementation contains structural flaws.</li> <li> <strong>Feature Inspection:</strong> Achieved <strong>91.19% accuracy</strong> and <strong>89.68% F1-score</strong> on inspecting graph-based computation features.</li> <li> <strong>Faulty Node Pinpointing:</strong> Localized exact bug-causing nodes within computation graphs with <strong>81.54% accuracy</strong> and <strong>79.98% F1-score</strong>, consistently outperforming baseline spectra-based and static fault localization techniques.</li> </ul> </article> <h2>References</h2> <div class="publications"> </div> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Muhammad Anas Raza. </div> </footer> <script>
   window.alFolio = {
     compatBootstrap: false
   };
@@ -40,7 +31,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "",
+          description: "Open-source systems, multi-backend ML frameworks, AI systems research, and production platforms.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -438,56 +429,66 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png" height="20" width="20"> <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20">',
           description: "",
-          section: "News",},{id: "projects-oil-debris-monitoring-system-using-deep-learning",
-          title: 'Oil Debris Monitoring System using Deep Learning',
-          description: "Deep learning-based time-series anomaly detection system for preventive maintenance in mechanical systems (undergraduate project at UET Taxila).",
+          section: "News",},{id: "projects-deeptrans-unsupervised-server-telemetry-anomaly-detection",
+          title: 'DeepTrAnS: Unsupervised Server Telemetry Anomaly Detection',
+          description: "Mixer-based unsupervised anomaly detection framework for high-dimensional server telemetry, achieving 99.88% precision and 99.81% F1-score (IEEE ICSC 2025).",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/10_project/";
-            },},{id: "projects-facial-recognition-deployment-with-postgresql-and-pgvector",
-          title: 'Facial Recognition Deployment with PostgreSQL and pgvector',
-          description: "Scalable facial recognition system using FastAPI, PostgreSQL, pgvector, Docker, and Kubernetes.",
+              window.location.href = "/projects/10_deeptrans/";
+            },},{id: "projects-production-real-time-food-delivery-ecosystem",
+          title: 'Production Real-Time Food Delivery Ecosystem',
+          description: "Full-stack real-time platform with Apollo Server 4 GraphQL microservices, React 19 web ordering client, and React Native / Expo SDK 53 cross-platform mobile apps.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-k3-addons",
-          title: 'K3 Addons',
-          description: "Multi-backend extensions for Keras 3 featuring advanced layers, attention mechanisms, losses, and activations.",
+              window.location.href = "/projects/11_restaurant_platform/";
+            },},{id: "projects-healthcare-point-of-sale-amp-aws-cloud-architecture",
+          title: 'Healthcare Point of Sale &amp; AWS Cloud Architecture',
+          description: "Cloud-native healthcare POS and inventory microservice featuring AWS S3 streaming upload pipelines, MongoDB aggregations, and 5-tier role authorization.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-k3im-keras-3-image-models",
-          title: 'K3IM – Keras 3 Image Models',
-          description: "A comprehensive multi-backend model zoo for image, 1D, 3D, and video classification using Keras 3.",
+              window.location.href = "/projects/12_medical_pos/";
+            },},{id: "projects-timm-cpp-vision-model-inference-in-c",
+          title: 'timm.cpp: Vision Model Inference in C++',
+          description: "High-performance zero-dependency C++17 inference engine executing PyTorch/timm models via GGUF/ggml with up to 25.8x faster cold start.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-keras-core-contributions-backend-agnostic-ml-amp-vision-models",
-          title: 'Keras Core Contributions (Backend-Agnostic ML &amp; Vision Models)',
-          description: "Contributions to Keras Core including backend-agnostic vision transformer components, example ports, and core API improvements (later migrated into Keras 3).",
+              window.location.href = "/projects/1_timm_cpp/";
+            },},{id: "projects-k3node-multi-backend-graph-neural-networks",
+          title: 'K3Node: Multi-Backend Graph Neural Networks',
+          description: "High-performance GNN library achieving 100% public API parity with PyTorch Geometric across TensorFlow, PyTorch, and JAX with 700+ tests per backend.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-deep-forgery-detector",
-          title: 'Deep Forgery Detector',
-          description: "Modular framework for benchmarking and deploying deepfake video detection models developed at SMILES Lab, Oakland University.",
+              window.location.href = "/projects/2_k3node/";
+            },},{id: "projects-k3im-keras-3-image-models-zoo",
+          title: 'K3IM: Keras 3 Image Models Zoo',
+          description: "Comprehensive model zoo featuring 50+ modern vision and spatiotemporal architectures across 1D, 2D, and 3D data modalities on TensorFlow, PyTorch, and JAX.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-forensic-examiner",
-          title: 'Forensic Examiner',
-          description: "Extensible framework for benchmarking and evaluating audio spoofing detection algorithms developed at SMILES Lab, Oakland University.",
+              window.location.href = "/projects/3_k3im/";
+            },},{id: "projects-keras-climate-amp-keras-geo",
+          title: 'Keras-Climate &amp; keras-geo',
+          description: "Multi-backend framework for Earth observation, satellite imagery, climate modeling, and weather nowcasting in Keras 3.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-focalnet-keras-3-implementation",
-          title: 'FocalNet – Keras 3 Implementation',
-          description: "Keras 3 translation of FocalNet (Focal Modulation Network), an attention-free vision architecture from Microsoft.",
+              window.location.href = "/projects/4_keras_climate/";
+            },},{id: "projects-k3-addons-advanced-multi-backend-components",
+          title: 'K3 Addons: Advanced Multi-Backend Components',
+          description: "Specialized neural network layers, attention mechanisms (MobileViT, CBAM, ECA), and custom loss functions engineered for Keras 3.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-focalnet-tensorflow-implementation",
-          title: 'FocalNet – TensorFlow Implementation',
-          description: "TensorFlow translation of FocalNet (Focal Modulation Network), an attention-free vision architecture by Microsoft.",
+              window.location.href = "/projects/5_k3_addons/";
+            },},{id: "projects-automas-automated-multi-agent-system-generation",
+          title: 'AutoMAS: Automated Multi-Agent System Generation',
+          description: "End-to-end framework generating functional multi-agent systems from natural language code intent across 5 cooperative agent layers (IEEE QRS 2026).",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-evaluating-modern-vision-architectures-on-3d-biomedical-data",
-          title: 'Evaluating Modern Vision Architectures on 3D Biomedical Data',
-          description: "Comparative evaluation of modern vision architectures (MLP-Mixer, FNet, gMLP) on 3D biomedical datasets using adapted 3D model variants.",
+              window.location.href = "/projects/6_automas/";
+            },},{id: "projects-neurogenesis-llm-driven-architecture-search",
+          title: 'NeuroGenesis: LLM-Driven Architecture Search',
+          description: "Reasoning-guided Neural Architecture Search (NAS) using LLMs for systematic hypothesis formation across audio, video, images, and time-series (IEEE QRS 2026).",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/7_neurogenesis/";
+            },},{id: "projects-locatorgraph-gnn-fault-localization-for-dl-programs",
+          title: 'LocatorGraph: GNN Fault Localization for DL Programs',
+          description: "Novel GNN framework converting sequence model code into TraceGraphs to localize structural and runtime deep learning bugs (Empirical Software Engineering 2025).",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_locatorgraph/";
+            },},{id: "projects-ruleboost-amp-multimodal-deepfake-forensics",
+          title: 'RuleBoost &amp; Multimodal Deepfake Forensics',
+          description: "Neuro-symbolic and audio-visual deepfake detection architectures evaluated on 100K+ videos (IEEE IJCB 2024 Best Poster Award & CVPRW 2023).",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9_ruleboost_deepfake/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
