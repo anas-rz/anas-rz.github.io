@@ -4,7 +4,141 @@
   }
 </style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=f0b101217084a90093badfe99ff9a7d1"> <link rel="canonical" href="anas-rz.github.io/projects/"> <script src="/assets/js/theme.js?v=7af685e2ba20b37fef545c97b8064050"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
     initTheme();
-  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Muhammad Anas</span> Raza </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item active"> <a class="nav-link" href="/projects/">projects <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/repositories/">repositories </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">projects</h1> <p class="post-description">Open-source systems, multi-backend ML frameworks, AI systems research, and production platforms.</p> </header> <article> <div class="projects"> <a id="ML Systems" href=".#ML%20Systems"> <h2 class="category">ML Systems</h2> </a> <div class="row row-cols-1 row-cols-md-3"> <div class="col"> <a href="/projects/1_timm_cpp/"> <div class="card h-100 hoverable"> <div class="card-body"> <h2 class="card-title">timm.cpp: Vision Model Inference in C++</h2> <p class="card-text">High-performance zero-dependency C++17 inference engine executing PyTorch/timm models via GGUF/ggml with up to 25.8x faster cold start.</p> <div class="row ml-1 mr-1 p-0"> </div> </div> </div> </a> </div> <div class="col"> <a href="/projects/2_k3node/"> <div class="card h-100 hoverable"> <div class="card-body"> <h2 class="card-title">K3Node: Multi-Backend Graph Neural Networks</h2> <p class="card-text">High-performance GNN library achieving 100% public API parity with PyTorch Geometric across TensorFlow, PyTorch, and JAX with 700+ tests per backend.</p> <div class="row ml-1 mr-1 p-0"> </div> </div> </div> </a> </div> <div class="col"> <a href="/projects/3_k3im/"> <div class="card h-100 hoverable"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/k3im-480.webp 480w,/assets/img/k3im-800.webp 800w,/assets/img/k3im-1400.webp 1400w," type="image/webp" sizes="250px"></source> <img src="/assets/img/k3im.png" class="card-img-top" width="100%" height="auto" alt="project thumbnail" loading="eager" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> <div class="card-body"> <h2 class="card-title">K3IM: Keras 3 Image Models Zoo</h2> <p class="card-text">Comprehensive model zoo featuring 50+ modern vision and spatiotemporal architectures across 1D, 2D, and 3D data modalities on TensorFlow, PyTorch, and JAX.</p> <div class="row ml-1 mr-1 p-0"> </div> </div> </div> </a> </div> <div class="col"> <a href="/projects/4_keras_climate/"> <div class="card h-100 hoverable"> <div class="card-body"> <h2 class="card-title">Keras-Climate &amp; keras-geo</h2> <p class="card-text">Multi-backend framework for Earth observation, satellite imagery, climate modeling, and weather nowcasting in Keras 3.</p> <div class="row ml-1 mr-1 p-0"> </div> </div> </div> </a> </div> <div class="col"> <a href="/projects/5_k3_addons/"> <div class="card h-100 hoverable"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/k-addons-480.webp 480w,/assets/img/k-addons-800.webp 800w,/assets/img/k-addons-1400.webp 1400w," type="image/webp" sizes="250px"></source> <img src="/assets/img/k-addons.png" class="card-img-top" width="100%" height="auto" alt="project thumbnail" loading="eager" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> <div class="card-body"> <h2 class="card-title">K3 Addons: Advanced Multi-Backend Components</h2> <p class="card-text">Specialized neural network layers, attention mechanisms (MobileViT, CBAM, ECA), and custom loss functions engineered for Keras 3.</p> <div class="row ml-1 mr-1 p-0"> </div> </div> </div> </a> </div> </div> <a id="Research" href=".#Research"> <h2 class="category">Research</h2> </a> <div class="row row-cols-1 row-cols-md-3"> <div class="col"> <a href="/projects/6_automas/"> <div class="card h-100 hoverable"> <div class="card-body"> <h2 class="card-title">AutoMAS: Automated Multi-Agent System Generation</h2> <p class="card-text">End-to-end framework generating functional multi-agent systems from natural language code intent across 5 cooperative agent layers (IEEE QRS 2026).</p> <div class="row ml-1 mr-1 p-0"> </div> </div> </div> </a> </div> <div class="col"> <a href="/projects/7_neurogenesis/"> <div class="card h-100 hoverable"> <div class="card-body"> <h2 class="card-title">NeuroGenesis: LLM-Driven Architecture Search</h2> <p class="card-text">Reasoning-guided Neural Architecture Search (NAS) using LLMs for systematic hypothesis formation across audio, video, images, and time-series (IEEE QRS 2026).</p> <div class="row ml-1 mr-1 p-0"> </div> </div> </div> </a> </div> <div class="col"> <a href="/projects/8_locatorgraph/"> <div class="card h-100 hoverable"> <div class="card-body"> <h2 class="card-title">LocatorGraph: GNN Fault Localization for DL Programs</h2> <p class="card-text">Novel GNN framework converting sequence model code into TraceGraphs to localize structural and runtime deep learning bugs (Empirical Software Engineering 2025).</p> <div class="row ml-1 mr-1 p-0"> </div> </div> </div> </a> </div> <div class="col"> <a href="/projects/9_ruleboost_deepfake/"> <div class="card h-100 hoverable"> <div class="card-body"> <h2 class="card-title">RuleBoost &amp; Multimodal Deepfake Forensics</h2> <p class="card-text">Neuro-symbolic and audio-visual deepfake detection architectures evaluated on 100K+ videos (IEEE IJCB 2024 Best Poster Award &amp; CVPRW 2023).</p> <div class="row ml-1 mr-1 p-0"> </div> </div> </div> </a> </div> <div class="col"> <a href="/projects/10_deeptrans/"> <div class="card h-100 hoverable"> <div class="card-body"> <h2 class="card-title">DeepTrAnS: Unsupervised Server Telemetry Anomaly Detection</h2> <p class="card-text">Mixer-based unsupervised anomaly detection framework for high-dimensional server telemetry, achieving 99.88% precision and 99.81% F1-score (IEEE ICSC 2025).</p> <div class="row ml-1 mr-1 p-0"> </div> </div> </div> </a> </div> </div> <a id="Full-Stack" href=".#Full-Stack"> <h2 class="category">Full-Stack</h2> </a> <div class="row row-cols-1 row-cols-md-3"> <div class="col"> <a href="/projects/11_restaurant_platform/"> <div class="card h-100 hoverable"> <div class="card-body"> <h2 class="card-title">Production Real-Time Food Delivery Ecosystem</h2> <p class="card-text">Full-stack real-time platform with Apollo Server 4 GraphQL microservices, React 19 web ordering client, and React Native / Expo SDK 53 cross-platform mobile apps.</p> <div class="row ml-1 mr-1 p-0"> </div> </div> </div> </a> </div> <div class="col"> <a href="/projects/12_medical_pos/"> <div class="card h-100 hoverable"> <div class="card-body"> <h2 class="card-title">Healthcare Point of Sale &amp; AWS Cloud Architecture</h2> <p class="card-text">Cloud-native healthcare POS and inventory microservice featuring AWS S3 streaming upload pipelines, MongoDB aggregations, and 5-tier role authorization.</p> <div class="row ml-1 mr-1 p-0"> </div> </div> </div> </a> </div> </div> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Muhammad Anas Raza. </div> </footer> <script>
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Muhammad Anas</span> Raza </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item active"> <a class="nav-link" href="/projects/">projects <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/repositories/">repositories </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">projects</h1> <p class="post-description">Open-source systems, multi-backend ML frameworks, AI systems research, and production platforms.</p> </header> <article> <div class="projects"> <div class="project-filter-bar mb-4" style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 0.5rem; margin-bottom: 2rem;"> <button type="button" class="project-filter-pill active" data-filter="all">All Projects</button> <button type="button" class="project-filter-pill" data-filter="ML Systems">ML Systems</button> <button type="button" class="project-filter-pill" data-filter="Research">Research &amp; Papers</button> <button type="button" class="project-filter-pill" data-filter="Full-Stack">Full-Stack</button> </div> <div class="project-category-section mb-5" data-category="ML Systems"> <a id="ML Systems" href=".#ML%20Systems"> <h2 class="category mb-3" style="font-weight: 700; border-bottom: 1px solid var(--global-divider-color); padding-bottom: 0.4rem;"> ML Systems </h2> </a> <div class="row row-cols-1 row-cols-md-3"> <div class="col"> <a href="/projects/1_timm_cpp/"> <div class="card h-100 hoverable"> <div class="card-body"> <h2 class="card-title">timm.cpp: Vision Model Inference in C++</h2> <p class="card-text">High-performance zero-dependency C++17 inference engine executing PyTorch/timm models via GGUF/ggml with up to 25.8x faster cold start.</p> <div class="row ml-1 mr-1 p-0"> </div> </div> </div> </a> </div> <div class="col"> <a href="/projects/2_k3node/"> <div class="card h-100 hoverable"> <div class="card-body"> <h2 class="card-title">K3Node: Multi-Backend Graph Neural Networks</h2> <p class="card-text">High-performance GNN library achieving 100% public API parity with PyTorch Geometric across TensorFlow, PyTorch, and JAX with 700+ tests per backend.</p> <div class="row ml-1 mr-1 p-0"> </div> </div> </div> </a> </div> <div class="col"> <a href="/projects/3_k3im/"> <div class="card h-100 hoverable"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/k3im-480.webp 480w,/assets/img/k3im-800.webp 800w,/assets/img/k3im-1400.webp 1400w," type="image/webp" sizes="250px"></source> <img src="/assets/img/k3im.png" class="card-img-top" width="100%" height="auto" alt="project thumbnail" loading="eager" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> <div class="card-body"> <h2 class="card-title">K3IM: Keras 3 Image Models Zoo</h2> <p class="card-text">Comprehensive model zoo featuring 50+ modern vision and spatiotemporal architectures across 1D, 2D, and 3D data modalities on TensorFlow, PyTorch, and JAX.</p> <div class="row ml-1 mr-1 p-0"> </div> </div> </div> </a> </div> <div class="col"> <a href="/projects/4_keras_climate/"> <div class="card h-100 hoverable"> <div class="card-body"> <h2 class="card-title">Keras-Climate &amp; keras-geo</h2> <p class="card-text">Multi-backend framework for Earth observation, satellite imagery, climate modeling, and weather nowcasting in Keras 3.</p> <div class="row ml-1 mr-1 p-0"> </div> </div> </div> </a> </div> <div class="col"> <a href="/projects/5_k3_addons/"> <div class="card h-100 hoverable"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/k-addons-480.webp 480w,/assets/img/k-addons-800.webp 800w,/assets/img/k-addons-1400.webp 1400w," type="image/webp" sizes="250px"></source> <img src="/assets/img/k-addons.png" class="card-img-top" width="100%" height="auto" alt="project thumbnail" loading="eager" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> <div class="card-body"> <h2 class="card-title">K3 Addons: Advanced Multi-Backend Components</h2> <p class="card-text">Specialized neural network layers, attention mechanisms (MobileViT, CBAM, ECA), and custom loss functions engineered for Keras 3.</p> <div class="row ml-1 mr-1 p-0"> </div> </div> </div> </a> </div> </div> </div> <div class="project-category-section mb-5" data-category="Research"> <a id="Research" href=".#Research"> <h2 class="category mb-3" style="font-weight: 700; border-bottom: 1px solid var(--global-divider-color); padding-bottom: 0.4rem;"> Research </h2> </a> <div class="row row-cols-1 row-cols-md-3"> <div class="col"> <a href="/projects/6_automas/"> <div class="card h-100 hoverable"> <div class="card-body"> <h2 class="card-title">AutoMAS: Automated Multi-Agent System Generation</h2> <p class="card-text">End-to-end framework generating functional multi-agent systems from natural language code intent across 5 cooperative agent layers (IEEE QRS 2026).</p> <div class="row ml-1 mr-1 p-0"> </div> </div> </div> </a> </div> <div class="col"> <a href="/projects/7_neurogenesis/"> <div class="card h-100 hoverable"> <div class="card-body"> <h2 class="card-title">NeuroGenesis: LLM-Driven Architecture Search</h2> <p class="card-text">Reasoning-guided Neural Architecture Search (NAS) using LLMs for systematic hypothesis formation across audio, video, images, and time-series (IEEE QRS 2026).</p> <div class="row ml-1 mr-1 p-0"> </div> </div> </div> </a> </div> <div class="col"> <a href="/projects/8_locatorgraph/"> <div class="card h-100 hoverable"> <div class="card-body"> <h2 class="card-title">LocatorGraph: GNN Fault Localization for DL Programs</h2> <p class="card-text">Novel GNN framework converting sequence model code into TraceGraphs to localize structural and runtime deep learning bugs (Empirical Software Engineering 2025).</p> <div class="row ml-1 mr-1 p-0"> </div> </div> </div> </a> </div> <div class="col"> <a href="/projects/9_ruleboost_deepfake/"> <div class="card h-100 hoverable"> <div class="card-body"> <h2 class="card-title">RuleBoost &amp; Multimodal Deepfake Forensics</h2> <p class="card-text">Neuro-symbolic and audio-visual deepfake detection architectures evaluated on 100K+ videos (IEEE IJCB 2024 Best Poster Award &amp; CVPRW 2023).</p> <div class="row ml-1 mr-1 p-0"> </div> </div> </div> </a> </div> <div class="col"> <a href="/projects/10_deeptrans/"> <div class="card h-100 hoverable"> <div class="card-body"> <h2 class="card-title">DeepTrAnS: Unsupervised Server Telemetry Anomaly Detection</h2> <p class="card-text">Mixer-based unsupervised anomaly detection framework for high-dimensional server telemetry, achieving 99.88% precision and 99.81% F1-score (IEEE ICSC 2025).</p> <div class="row ml-1 mr-1 p-0"> </div> </div> </div> </a> </div> </div> </div> <div class="project-category-section mb-5" data-category="Full-Stack"> <a id="Full-Stack" href=".#Full-Stack"> <h2 class="category mb-3" style="font-weight: 700; border-bottom: 1px solid var(--global-divider-color); padding-bottom: 0.4rem;"> Full-Stack </h2> </a> <div class="row row-cols-1 row-cols-md-3"> <div class="col"> <a href="/projects/11_restaurant_platform/"> <div class="card h-100 hoverable"> <div class="card-body"> <h2 class="card-title">Production Real-Time Food Delivery Ecosystem</h2> <p class="card-text">Full-stack real-time platform with Apollo Server 4 GraphQL microservices, React 19 web ordering client, and React Native / Expo SDK 53 cross-platform mobile apps.</p> <div class="row ml-1 mr-1 p-0"> </div> </div> </div> </a> </div> <div class="col"> <a href="/projects/12_medical_pos/"> <div class="card h-100 hoverable"> <div class="card-body"> <h2 class="card-title">Healthcare Point of Sale &amp; AWS Cloud Architecture</h2> <p class="card-text">Cloud-native healthcare POS and inventory microservice featuring AWS S3 streaming upload pipelines, MongoDB aggregations, and 5-tier role authorization.</p> <div class="row ml-1 mr-1 p-0"> </div> </div> </div> </a> </div> </div> </div> </div> <style>
+  .project-filter-pill {
+    padding: 6px 14px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    border-radius: 9999px;
+    border: 1px solid var(--global-divider-color);
+    background: var(--global-code-bg-color);
+    color: var(--global-text-color);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    outline: none;
+  }
+  .project-filter-pill:hover {
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color);
+    transform: translateY(-1px);
+  }
+  .project-filter-pill.active {
+    background: var(--global-theme-color);
+    color: #ffffff !important;
+    border-color: var(--global-theme-color);
+    box-shadow: 0 4px 12px rgba(181, 9, 172, 0.2);
+  }
+  .card.hoverable {
+    transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.2s ease;
+    border: 1px solid var(--global-divider-color);
+  }
+  .card.hoverable:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    border-color: var(--global-theme-color);
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+</style> <script>
+  (function() {
+    function initFilters() {
+      const pills = document.querySelectorAll('.project-filter-pill');
+      if (!pills.length) return;
+      pills.forEach(pill => {
+        pill.addEventListener('click', function() {
+          const filter = this.getAttribute('data-filter');
+          pills.forEach(p => p.classList.remove('active'));
+          this.classList.add('active');
+
+          const sections = document.querySelectorAll('.project-category-section');
+          sections.forEach(sec => {
+            const cat = sec.getAttribute('data-category');
+            if (filter === 'all' || cat === filter) {
+              sec.style.display = 'block';
+              sec.style.animation = 'fadeIn 0.3s ease forwards';
+            } else {
+              sec.style.display = 'none';
+            }
+          });
+        });
+      });
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initFilters);
+    } else {
+      initFilters();
+    }
+  })();
+</script> <style>
+  .project-filter-pill {
+    padding: 6px 14px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    border-radius: 9999px;
+    border: 1px solid var(--global-divider-color);
+    background: var(--global-code-bg-color);
+    color: var(--global-text-color);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    outline: none;
+  }
+  .project-filter-pill:hover {
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color);
+    transform: translateY(-1px);
+  }
+  .project-filter-pill.active {
+    background: var(--global-theme-color);
+    color: #ffffff !important;
+    border-color: var(--global-theme-color);
+    box-shadow: 0 4px 12px rgba(181, 9, 172, 0.2);
+  }
+  .card.hoverable {
+    transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.2s ease;
+    border: 1px solid var(--global-divider-color);
+  }
+  .card.hoverable:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    border-color: var(--global-theme-color);
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+</style> <script>
+  (function() {
+    function initFilters() {
+      const pills = document.querySelectorAll('.project-filter-pill');
+      if (!pills.length) return;
+      pills.forEach(pill => {
+        pill.addEventListener('click', function() {
+          const filter = this.getAttribute('data-filter');
+          pills.forEach(p => p.classList.remove('active'));
+          this.classList.add('active');
+
+          const sections = document.querySelectorAll('.project-category-section');
+          sections.forEach(sec => {
+            const cat = sec.getAttribute('data-category');
+            if (filter === 'all' || cat === filter) {
+              sec.style.display = 'block';
+              sec.style.animation = 'fadeIn 0.3s ease forwards';
+            } else {
+              sec.style.display = 'none';
+            }
+          });
+        });
+      });
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initFilters);
+    } else {
+      initFilters();
+    }
+  })();
+</script> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Muhammad Anas Raza. </div> </footer> <script>
   window.alFolio = {
     compatBootstrap: false
   };
