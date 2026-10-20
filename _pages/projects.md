@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: 
+description: Open-source systems, multi-backend ML frameworks, AI systems research, and production platforms.
 nav: true
 nav_order: 3
-display_categories: [research, open-source]
+display_categories: ["ML Systems", "Research", "Full-Stack"]
 horizontal: false
 ---
 
@@ -40,13 +40,10 @@ horizontal: false
 {% else %}
 
 <!-- Display projects without categories -->
-
 {% assign sorted_projects = site.projects | sort: "importance" %}
 
   <!-- Generate cards for each project -->
-
 {% if page.horizontal %}
-
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
     {% for project in sorted_projects %}

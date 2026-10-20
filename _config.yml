@@ -9,7 +9,7 @@ last_name: Raza
 contact_note: >
   The best way to contact me is via email/Whatsapp. I am also available on LinkedIn and GitHub.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  I am a passionate AI/ML researcher with expertise in machine learning, deep learning, computer vision, and data science. Proficient in Python, Pandas, NumPy, Scikit-learn, TensorFlow, and PyTorch. Experienced in exploratory data analysis, data preprocessing, statistical methods, and data visualization (Matplotlib, Seaborn). Skilled in developing and validating ML algorithms on real-world datasets, including image processing and time-series data. Strong communicator with cross-functional collaboration experience. Open-source contributor (Keras).
+  Ph.D. Candidate & ML Systems / Research Engineer specializing in high-performance inference (C++/ggml), agentic AI systems, deep learning reliability, and multi-backend frameworks. Contributor to Keras 3 and author of timm.cpp, K3Node, and K3IM.
 footer_text: 
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -338,8 +338,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Raza]
+  first_name: [Muhammad Anas, M. A., Anas]
 
   style: apa
   locale: en

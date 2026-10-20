@@ -1,9 +1,9 @@
 cv:
   name: Muhammad Anas Raza
-  label: Scholar
+  label: Ph.D. Candidate & ML Systems / Research Engineer
   email: memanasraza@gmail.com
-  location: Auburn Hills and Rochester, Michigan
-  summary: Passionate AI/ML researcher focused on reliability engineering for deep learning and agentic AI systems, with a proven track record across diverse data modalities including language, audio, video, images, and graphs. Proficient in Python, TensorFlow, PyTorch, and JAX, with experience spanning exploratory data analysis, statistical methods, and ML algorithm development on real-world datasets. Also working on de novo protein design with ML, including AlphaFold, ESMFold, ProteinMPNN, and bioinformatics alignment tools. Strong communicator with cross-functional collaboration experience. Active open-source contributor (Keras, timm.cpp).
+  location: Rochester, Michigan
+  summary: Machine Learning Systems and AI researcher with 5+ years of combined research and industry experience. Author of 12 papers (7 first-author, 230+ citations), recipient of the IEEE IJCB 2024 Best Poster Award, and open-source contributor with 20+ merged pull requests to Keras 3. Leading development of timm.cpp (zero-overhead C++ vision model inference engine) and multi-backend machine learning frameworks (K3Node, K3IM, Keras-Climate).
   social_networks:
     - network: LinkedIn
       username: memanasraza
@@ -23,9 +23,9 @@ cv:
         area: Computer Science & Informatics
         studyType: Ph.D.
         start_date: 2022-05
-        end_date: Present
+        end_date: 2026-12
         score: "3.78"
-        courses: "Research Focus: ML in Software Engineering"
+        courses: "Research Focus: ML Systems, Agentic AI, and Deep Learning Reliability"
 
       - institution: Oakland University
         location: Rochester, MI
@@ -42,41 +42,73 @@ cv:
         location: Rochester, MI
         start_date: 2022-05
         end_date: Present
-        summary: "Conduct advanced academic research and teach courses within the Computer Science department."
+        summary: "Conduct advanced research in ML systems, agentic AI, and software reliability, while mentoring students and assisting graduate courses."
         highlights:
-          - "Software Engineering & LLM Agent Research: Investigate automated software engineering techniques, including Graph Neural Networks for fault localization in machine learning systems and the development of multimodal automated machine learning (AutoML) pipelines. Automated Software engineering using LLM agents."
-          - "Computer Vision Research and Development: Conduct research on deepfake detection using Vision Transformers, MLP-Mixer, gMLP, FNet, and Convolutional Neural Networks. Perform experiments in both vision-only and multimodal, neuro-symbolic settings on large-scale datasets including DFDC (124K videos) and FakeAVCeleb (21K videos)."
-          - "Deep Forgery Detector: Designed and developed in-house Deep Forgery Detector, a modular framework for benchmarking and comparing video deepfake detection algorithms, with extensible architecture enabling rapid integration of new research models."
-          - "Forensic Examiner: Developed a flexible framework for evaluating audio spoofing detection algorithms, built using Python, PyTorch, TensorFlow, and Streamlit for interactive experimentation and analysis."
-          - "Teaching Assistant: Assisted in courses on Machine Learning and Software Testing, including grading assignments, supporting laboratory sessions, and mentoring students on programming and machine learning projects."
+          - "ML Systems & C++ Inference: Spearheading timm.cpp, a zero-Python C++17 inference engine running 106 PyTorch/timm architectures via ggml/GGUF, achieving up to 25.8x faster cold-start latency via zero-copy POSIX mmap and 3.4x-5.8x weight reduction with calibrated quantization."
+          - "Multi-Backend Frameworks & Keras 3: Authored 20+ merged PRs to core Keras 3; engineered K3Node (multi-backend GNN library with 100% PyG public API parity across PyTorch, TensorFlow, and JAX with 700+ unit tests per backend) and K3IM (50+ vision and spatiotemporal model architectures)."
+          - "Agentic AI & Neural Architecture Search: Designed AutoMAS (end-to-end multi-agent software generation framework across 5 cooperative layers, achieving 82.75% Pass@1 on real-world benchmarks) and NeuroGenesis (reasoning-guided multimodal NAS across audio, video, image, and time-series data)."
+          - "Deep Learning Reliability & Fault Localization: Developed LocatorGraph (GNN-based bug localization on DL computation graphs, published in Empirical Software Engineering) and co-authored SelfHeal and RAGFix for automated program repair."
+          - "Multimodal Forensics & AIOps: Researched deepfake detection on 100K+ videos across DFDC and FakeAVCeleb, winning the Best Poster Award at IEEE IJCB 2024 (RuleBoost); created DeepTrAnS for unsupervised server telemetry anomaly detection (99.88% precision, IEEE ICSC 2025)."
+          - "Teaching & Outreach: Graduate Teaching Assistant for Machine Learning and Software Testing; designed and delivered NAIRR Edge AI workshop modules."
 
-      - company: Sense Digital Private Limited / Later on EcoEdgeAI
-        position: Software Engineer
-        location: "Islamabad, Pakistan"
+      - company: SenseDigital
+        position: AI Software Engineer
+        location: Islamabad, Pakistan
         start_date: 2020-12
         end_date: 2021-07
-        summary: "Developed IoT pipelines and edge AI infrastructure solutions."
+        summary: "Built industrial IoT pipelines, automated time-series analytics, and edge AI monitoring infrastructure."
         highlights:
-          - "IoT Data Pipeline: Designed and implemented automated data ingestion pipelines for time-series data from building automation systems using BACnet, enabling large-scale monitoring of HVAC and building efficiency metrics."
-          - "Edge AI Infrastructure: Developed and deployed edge-based data processing and monitoring solutions on Nvidia Jetson Nano devices for real-time building analytics."
-          - "Data Visualization & Deployment: Built and containerized data visualization and monitoring dashboards for building efficiency products using InfluxDB and Grafana, and deployed them on Linux-based edge devices."
-          - "Tech Stack: Python, Linux (Arch), Nvidia Jetson Nano, Volttron, Docker, InfluxDB, Grafana, Bash."
+          - "IoT Ingestion Pipeline: Architected automated BACnet data ingestion pipelines capturing building sensor telemetry for real-time HVAC efficiency analytics."
+          - "Edge AI Deployment: Deployed real-time data processing, monitoring, and inference containers on NVIDIA Jetson Nano hardware."
+          - "Telemetry Dashboards: Containerized InfluxDB time-series storage and Grafana visualization dashboards with Docker Compose on Linux."
+
+    Honors and Awards:
+      - title: Best Poster Award
+        issuer: IEEE International Joint Conference on Biometrics (IJCB)
+        date: 2024-09
+        summary: "Awarded for RuleBoost: A Neuro-Symbolic Framework for Robust Deepfake Detection."
+
+    Certifications & Personal Development:
+      - title: AWS Certified Solutions Architect – Associate (SAA-C03)
+        issuer: Amazon Web Services
+        date: In Progress
+        summary: "Completed AWS SAA-C03 Certification Essentials along with comprehensive compute, networking (VPC), IAM, storage, and serverless modules."
+
+      - title: Multi-Cloud, Kubernetes & Infrastructure Training
+        issuer: Pluralsight
+        date: 2024–2026
+        summary: "Completed 13 courses and 21 hands-on labs covering AWS (SageMaker, Lambda, S3, EC2), Kubernetes (kubeadm v1.27, kubectl, EKS, AKS, GKE), Terraform (IaC), and Rust fundamentals."
 
     Skills:
-      - name: Languages & Frameworks
+      - name: Programming Languages
         level: Expert
         icon: fa-solid fa-code
-        keywords: "Python, JavaScript, Keras, TensorFlow, PyTorch, JAX, Streamlit"
+        keywords: "Python, C++ / C++17, TypeScript, JavaScript (ES6+), CUDA, Dart, Rust (fundamentals), Bash, SQL, LaTeX"
 
-      - name: Technology
+      - name: ML Frameworks & Deep Learning
         level: Expert
-        icon: fa-solid fa-laptop-code
-        keywords: "Artificial Intelligence, Git, Docker, Machine Learning, Deep Learning, RAG, Web Development, MERN Stack, Large Language Models, Multimodal Learning, Graph Neural Networks"
+        icon: fa-solid fa-brain
+        keywords: "PyTorch, Keras 3, TensorFlow, JAX, LibTorch, timm, Hugging Face, LangGraph, scikit-learn, NumPy, pandas, XGBoost, Amazon SageMaker, Streamlit"
 
-      - name: Soft Skills
-        level: Intermediate
-        icon: fa-solid fa-users
-        keywords: "Communication Skills, Public Speaking, Leadership & Mentorship"
+      - name: ML Systems & High-Performance Inference
+        level: Expert
+        icon: fa-solid fa-microchip
+        keywords: "ggml, GGUF, llama.cpp, llama-server, Zero-copy POSIX mmap, Calibrated Quantization (Q8_0, Q4_0, Q4_K), Weight Porting, Numerical Parity Validation, Hardware Acceleration (CUDA, Metal, Vulkan, AVX-512)"
+
+      - name: AI / ML Research Domains
+        level: Expert
+        icon: fa-solid fa-network-wired
+        keywords: "Agentic AI, Multi-Agent Systems, LLM Reliability, RAG, Computer Vision (ViT, Swin, ConvMixer, gMLP), Graph Neural Networks (GCN, GAT, GraphSAGE, Foundation Models), Time-Series Forecasting & Anomaly Detection, AutoML & NAS, Neuro-Symbolic AI, Earth Observation"
+
+      - name: Cloud, MLOps & Infrastructure
+        level: Expert
+        icon: fa-solid fa-cloud
+        keywords: "AWS (S3, EC2, Lambda, SageMaker, VPC, IAM, EKS), Docker, Docker Compose, Kubernetes (kubeadm, kubectl, AKS, GKE), Terraform (IaC), HPC / SLURM, Multi-GPU (Tesla V100), NVIDIA Jetson, InfluxDB, Grafana, CI/CD"
+
+      - name: Web, Mobile & Full-Stack
+        level: Advanced
+        icon: fa-solid fa-layer-group
+        keywords: "Node.js, Express, React 19, React Native, Expo SDK 53, Flutter, Apollo Server / Client, GraphQL (Subscriptions / WebSockets), MongoDB & Mongoose Aggregations, REST APIs, Tailwind CSS v4"
 
     Languages:
       - language: English
@@ -87,28 +119,60 @@ cv:
         fluency: Native
 
     Projects:
-      - name: "K3IM: Image Models in Keras - Open Source"
-        summary: "Developed K3IM, an open-source Keras 3 library implementing 50+ state-of-the-art architectures (ViT, Swin, ConvMixer) with native support for 1D, 2D, and 3D/spatiotemporal data. Engineered for multi-backend compatibility, the project enables seamless execution across TensorFlow, PyTorch, and JAX, integrating advanced research features like Class-Attention and Focal Modulation to provide a flexible, high-performance framework for modern machine learning research."
+      - name: "timm.cpp: Vision Model Inference in C++"
+        summary: "High-performance C++ inference engine executing PyTorch/timm vision models via ggml/GGUF with zero Python runtime dependency. Hand-ported 106 vision architectures with strict numerical parity (Cosine Similarity >= 0.999997), up to 25.8x faster cold-start load times via zero-copy mmap, and 3.4x-5.8x calibrated quantization weight reduction."
         highlights:
-          - "Link: https://github.com/anas-rz/k3im"
-        start_date: 2023-12
-        end_date: 2024-02
+          - "Stack: C++17, ggml, GGUF, PyTorch, CMake, Docker, CUDA, Metal, Vulkan"
+        start_date: 2026-01
+        end_date: Present
 
-      - name: "K3 Addons: Addons for Keras 3 - Open Source"
-        summary: "Developed K3-Addons, an open-source suite of specialized layers, losses, and activations that extends the Keras 3 ecosystem with multi-backend support (JAX, PyTorch, TensorFlow). I engineered high-performance implementations of modern components, including Attention mechanisms (Mobile ViT, CBAM, ECA), Adaptive Pooling layers parity-matched with PyTorch, and advanced loss functions like GIoU and Sigmoid Focal Cross-Entropy."
-        highlights:
-          - "Link: https://github.com/anas-rz/k3-addons"
-        start_date: 2023-12
-        end_date: 2024-03
-
-      - name: "K3NODE: Multibackend Graph Neural Networks - Open Source"
-        summary: "Developed K3Node, a high-performance library for Graph Neural Networks (GNNs) built on Keras 3, porting and optimizing core components from Spektral, PyTorch Geometric, and StellarGraph. I implemented a modular suite of GNN layers (GCN, GAT, GraphSAGE, GIN) and advanced aggregation schemes like PowerMean and Softmax pooling, ensuring cross-framework compatibility."
+      - name: "K3Node: Multi-Backend Graph Neural Networks"
+        summary: "Next-generation GNN library with 100% public API parity with PyTorch Geometric (PyG), executable across TensorFlow, PyTorch, and JAX. Implemented 65+ conv layers, 26 aggregations, 31 pooling operators, 5 pre-trained Foundation Models (GraphMAE2, Graphormer, GraphGPS, GROVER, Mole-BERT), and 700+ unit tests per backend."
         highlights:
           - "Link: https://github.com/anas-rz/k3-node"
         start_date: 2024-01
-        end_date: 2024-02
+        end_date: Present
 
-      - name: "Keras 3 Development - Open Source"
-        summary: "Contributed 20+ merged pull requests to the Keras 3 codebase, developing framework-agnostic implementations of complex architectures like DeepLabV3Plus, Vision Transformers, and SimSiam. Optimized core library operations, including patch extraction ops, and authored comprehensive examples for Reinforcement Learning and Computer Vision, ensuring robust performance across JAX, PyTorch, and TensorFlow backends."
-        start_date: 2023-07
-        end_date: 2023-09
+      - name: "K3IM: Keras 3 Image Models Zoo"
+        summary: "Open-source deep learning library providing 50+ modern vision and spatiotemporal architectures across 1D, 2D, and 3D data modalities with cross-backend support on TensorFlow, PyTorch, and JAX. Features hand-implemented ViTs, Swin, ConvMixer, gMLP, and MLP-Mixer."
+        highlights:
+          - "Link: https://github.com/anas-rz/k3im"
+        start_date: 2023-12
+        end_date: Present
+
+      - name: "Keras-Climate: Earth Observation & Climate Modeling"
+        summary: "Open-source multi-backend framework for remote sensing, climate forecasting, and Earth observation. Implemented 4-band UNet and SegFormer, PatchTST for multivariate forecasting, ConvLSTMNowcaster, and the NASA/IBM Prithvi geospatial foundation model."
+        highlights:
+          - "Link: https://github.com/anas-rz/keras-climate"
+        start_date: 2026-01
+        end_date: Present
+
+      - name: "AutoMAS: Automated Multi-Agent System Generation"
+        summary: "Autonomous framework generating functional multi-agent software systems from natural language code intent across 5 cooperative layers. Evaluated on 91 real-world agentic systems with 82.75% Pass@1 and 89.78% accuracy. Published in IEEE QRS 2026."
+        start_date: 2025-06
+        end_date: 2026-03
+
+      - name: "NeuroGenesis: LLM-Driven Architecture Search"
+        summary: "Reasoning-guided Neural Architecture Search (NAS) using LLMs to formulate and justify iterative model designs across audio, video, images, and multivariate time-series data with 20 candidate backbones. Published in IEEE QRS 2026."
+        start_date: 2025-08
+        end_date: 2026-03
+
+      - name: "LocatorGraph: GNN Fault Localization for Sequence Models"
+        summary: "Novel fault localization framework converting sequence model code into TraceGraphs to localize deep learning bugs. Achieved 89.46% AUC on bug identification and 81.54% accuracy in pinpointing faulty nodes across 152 models. Published in Empirical Software Engineering (EMSE 2025)."
+        start_date: 2024-01
+        end_date: 2025-05
+
+      - name: "RuleBoost: Neuro-Symbolic Deepfake Detection"
+        summary: "Neuro-symbolic detector fusing deep perceptual representations (gMLP, ViT, TokenLearner) with geometric facial rules. Achieved 96.19% AUC on World Leaders Dataset and 95.44% on FaceForensics++. Awarded Best Poster Award at IEEE IJCB 2024."
+        start_date: 2023-09
+        end_date: 2024-09
+
+      - name: "DeepTrAnS: Unsupervised Server Telemetry Anomaly Detection"
+        summary: "MLP-Mixer-based unsupervised anomaly detection framework for high-dimensional server telemetry. Achieved 99.88% precision, 99.73% recall, and 99.81% F1-score, significantly outperforming TranAD and OmniAnomaly. Published in IEEE ICSC 2025."
+        start_date: 2024-03
+        end_date: 2025-01
+
+      - name: "Real-Time Food Delivery Ecosystem & Apollo GraphQL Backend"
+        summary: "Production-grade microservice and client ecosystem featuring an Apollo Server 4 GraphQL backend with real-time WebSocket subscriptions, React 19 web frontend, and cross-platform React Native / Expo SDK 53 customer and manager mobile apps."
+        start_date: 2024-06
+        end_date: 2024-12

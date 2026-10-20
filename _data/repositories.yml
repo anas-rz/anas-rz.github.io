@@ -1,12 +1,10 @@
 github_users:
   - anas-rz
-  - anasrz-alt
 
 repo_description_lines_max: 2
 
 github_repos:
+  - anas-rz/k3-node
   - anas-rz/k3im
+  - anas-rz/keras-climate
   - anas-rz/k3-addons
-  - anas-rz/focalnet-keras-3
-  - anas-rz/focalnet-tensorflow
-  - anas-rz/facial-recognition-deployment
